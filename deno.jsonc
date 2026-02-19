@@ -1,0 +1,7 @@
+/**
+ * We use https://deno.com/ to test, lint and format.
+ * This is the config file of deno.
+ *
+ * Use `irm https://deno.land/install.ps1 | iex` in your terminal to instal deno.
+ */
+{}

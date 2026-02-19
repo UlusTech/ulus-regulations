@@ -1,0 +1,3 @@
+{
+  "recommendations": ["denoland.vscode-deno", "yzhang.markdown-all-in-one", "bierner.markdown-footnotes", "bierner.markdown-mermaid", "DavidAnson.vscode-markdownlint"],
+}
