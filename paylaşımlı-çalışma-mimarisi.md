@@ -25,8 +25,6 @@ Bu dosyalar alakadar bilginin olası beklentisi nedeniyle yazılır. Yani bir do
 
 Tüm dosyalar giriş(aka landing) sayfasında konumları ile belirtilmelidir.
 
-### Tanımlı Kök Markdown Dosyaları
-
 Aşağıda, projelerin kök dizininde kullanabileceği tüm tanımlı `.md` dosyaları listelenmektedir.
 Her dosya; açıklaması ve hangi bağlamlara ait olduğunu belirten etiketlerle birlikte verilmiştir.
 
