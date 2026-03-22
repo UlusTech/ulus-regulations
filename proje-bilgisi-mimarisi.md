@@ -40,10 +40,10 @@ Sırası ile, [CommonMark](https://commonmark.org/) ve [GFM](https://en.wikipedi
 Projenin sunulduğu her ortamda gösterilmesi zorunlu olan kök(root) markdown(aka .md) dosyaları vardır.
 Bu dosyalar alakadar bilginin olası beklentisi nedeniyle yazılır. Yani bir dosya bağlam gereği beklenmiyorsa yazılmasına gerek yoktur.
 
-Tüm dosyalar giriş(aka landing) sayfasında konumları ile belirtilmelidir.
+Tüm kök dosyaları giriş(aka landing, README) dosyasında konumları ile belirtilmelidir.
 
-Aşağıda, projelerin kök dizininde kullanabileceği tüm tanımlı `.md` dosyaları listelenmektedir.
-Her dosya; açıklaması ve hangi bağlamlara ait olduğunu belirten etiketlerle birlikte verilmiştir.
+Aşağıda, projelerin kök dizininde kullanılabilecek tüm tanımlı bilgi dosyaları listelenmektedir.
+*Dosyaların isimlerinin üstüne tıklayarak örnek dosyalara gidilebilir.*
 
 **Etiketler:**
 
