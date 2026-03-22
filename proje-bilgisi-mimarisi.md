@@ -24,11 +24,16 @@ Herşeye rağmen Git güçlü bir versiyon kontorl sistemidir, ve Ulus dijital o
 ## Bilginin Biçimi
 
 Projelerin tüm bilgileri "özel bir program kullanmadan", insanların anlayabileceği bir formatta olmalıdır.
-Yani, veri versiyon kontrol sistemine bir versiyon olarak kayıt edilirken PDF gibi tiplerde olmaz.
+Yani; veri, [versiyon kontrol sistemi](#versiyonlandırma-sistemleri)ne bir versiyon olarak kayıt edilirken PDF gibi tiplerde olamaz.
+PDF, JPG, PNG, MP3, MP4 ve OBJ gibi dosya tipleri makina hedefli bir tiptedir ve saf hali ile insanlar okuyamaz.
 
-Ulus, tüm metin işleri için [Markdown](https://en.wikipedia.org/wiki/Markdown) kullanır(yönetmelik yazım yönetmeliği).
-Bu nedenle projelerin tüm bilgilerinin mümkünse Markdown tipinde depolanması gerekir.
-[CommonMark](https://commonmark.org/) ve [GFM](https://en.wikipedia.org/wiki/Markdown#GFM) üzerinden gidilmesi gerekir.
+Bir dosyanın erişimi için bir programın kullanılmasının zorunlu olması erişimi katmanlandırır.
+Bu durum [şeffaflık](./şeffaflık-ve-berraklık.md) ideallerimize uygun değil.
+
+Ulus, tüm metin işleri için [Markdown](https://en.wikipedia.org/wiki/Markdown) kullanır.
+Bu durum [Yönetmelik Yazım Yönetmeliği](./yönetmelik-yazım-yönetmeliği.md)'nde belirtişmiştir.
+Bu nedenle projelerin tüm bilgilerinin Markdown tipinde olması gerekir.
+Sırası ile, [CommonMark](https://commonmark.org/) ve [GFM](https://en.wikipedia.org/wiki/Markdown#GFM) standartları tercih edilir.
 
 ## Kök Markdown Dosyaları
 
