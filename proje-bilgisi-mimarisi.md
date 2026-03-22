@@ -45,37 +45,108 @@ Tüm kök dosyaları giriş(aka landing, README) dosyasında konumları ile beli
 Aşağıda, projelerin kök dizininde kullanılabilecek tüm tanımlı bilgi dosyaları listelenmektedir.
 *Dosyaların isimlerinin üstüne tıklayarak örnek dosyalara gidilebilir.*
 
-**Etiketler:**
+### [README.md](./README.md)
 
-- `#evrensel` — Her projede bulunması beklenen dosyalar
-- `#yönetim` — Organizasyonel yapı, otorite ve karar alma
-- `#yönetmelik` — Kurallar, normlar ve uyumluluk
-- `#teknik` — Sistem tasarımı, altyapı ve teknik detaylar
-- `#operasyon` — Süreçler, işleyiş ve günlük prosedürler
-- `#raporlama` — Değerlendirme, planlama ve belgeleme çıktıları
-- `#topluluk` — Katılım, katkı ve iletişim
-- `#güvenlik` — Güvenlik politikaları, tehdit ve erişim yönetimi
-- `#hukuki` — Lisans, sorumluluk ve yasal bildirimler
-- `#makineler` — İnsan için değil; yazılım araçları, tarayıcılar ve yapay zeka ajanları için yazılan dosyalar
+İsmi İngilizce "read" yani "oku", ve "me" yani "beni" kelimelerinin birleşimidir.
+Projeye bakan kişinin dikkatini çekmek, burdan başla demek için kullanılır.
+Yani projenin giriş noktası, ilk izlenim dosyasıdır.
+
+Dosya mimarisi şu şekildedir:
+
+1. Dosya başlığı'nın altında/içinde projenin ne olduğu açıklanır.
+2. "Ne İşe Yarar" altında projenin ne amaçlar ile kullanılmak üzere hazırlandığı yazar.
+3. "Nasıl Kullanılır" altında basit bir kullanım kılavuzu bulunur. Ayrıca bir eğitici görevi de görmelidir.
+4. "Diğer Konular" atlında diğer tüm bilgi dosyaları `- [Dosya](./DOSYA.md)` şeklinde listelenmelidir.
 
 ---
 
-| Dosya | Açıklama | Etiketler |
-| --- | --- | --- |
-| `README.md` | Projenin giriş noktası. Projenin ne olduğunu, ne işe yaradığını, nasıl kullanılacağını, iletişim bilgilerini ve genel tanıtımı içerir. Projeye ilk kez bakan herkesin okuduğu ilk dosyadır | `#evrensel` |
-| `SUMMARY.md` | Projenin alandan ve teknik bilgiden bağımsız, herkese hitap eden kapsamlı özeti. Bir el kitabı veya kılavuz niteliği taşır; projeyi derinlemesine değil, bütünüyle kavramak isteyen okuyucu için yazılır | `#evrensel` |
-| `CHANGELOG.md` | Versiyon bazlı değişikliklerin kısa ve yapılandırılmış kaydı. Her versiyon için ne değişti, ne eklendi, ne kaldırıldı bilgisini tarihsel sırayla tutar | `#evrensel` `#operasyon` |
-| `HISTORY.md` | Projenin genel tarihsel seyri; önemli kararlar, dönüm noktaları ve geçirilen dönüşümler. `CHANGELOG.md` versiyon ve değişiklik odaklıyken `HISTORY.md` anlam, bağlam ve gerekçe odaklıdır | `#evrensel` `#operasyon` |
-| `GLOSSARY.md` | Projeye özgü terimlerin, kısaltmaların ve kavramların tanımları. Farklı geçmişlerden gelen okuyucuların ortak bir dil kurabilmesi için yazılır | `#evrensel` |
-| `FAQ.md` | Projeyle ilgili sık sorulan sorular ve yanıtları. Tekrar eden sorular ile yanlış anlaşılmaya açık noktaları doğrudan ele alır | `#evrensel` `#topluluk` |
-| `MANIFESTO.md` | Projenin varoluş gerekçesi, temel ilkeleri, kapsamı, sınırları ve uzun vadeli hedefleri. Projenin neden var olduğunu ve nereye gideceğini net biçimde ortaya koyar. `SCOPE.md`, `ROADMAP.md`, `MISSION.md`, `VISION.md`, `VALUES.md` ve `CHARTER.md` bu dosya tarafından kapsanır | `#yönetim` `#raporlama` |
-| `GOVERNANCE.md` | Karar alma yapısı, yetki seviyeleri ve liderlik düzeni; roller ile sorumluluklar; politika ve yönetmelik çerçevesi; onay mekanizmaları; olay müdahalesi ve yükseltme yolları; gözden geçirme ve denetim süreçleri; raporlama ve değerlendirme prosedürleri. Projenin nasıl yönetildiğini ve kimin neye yetkili olduğunu tanımlar. `ROLES.md`, `MAINTAINERS.md`, `AUTHORS.md`, `ACKNOWLEDGEMENTS.md`, `POLICY.md`, `REGULATION.md`, `INCIDENT.md`, `REVIEW.md`, `APPROVAL.md`, `ROLLBACK.md`, `OFFBOARDING.md`, `REPORT.md`, `ASSESSMENT.md` ve `RATIONALE.md` bu dosya tarafından kapsanır | `#yönetim` `#yönetmelik` `#operasyon` `#raporlama` |
-| `CODE_OF_CONDUCT.md` | Projede beklenen davranış standartları, etik ilkeler, gizlilik anlayışı ve katılım rehberi. Hem dışarıdan katılanlara hem de içerideki üyelere yönelik yazılır. `ETHICS.md`, `PRIVACY.md` ve `ONBOARDING.md` bu dosya tarafından kapsanır | `#yönetmelik` `#topluluk` |
-| `CONTRIBUTING.md` | Projeye nasıl katkı sağlanacağının teknik ve süreç odaklı rehberi. Katkı türleri, iş akışı, inceleme süreci ve beklentiler burada açıklanır. `CODE_OF_CONDUCT.md`'den farklı olarak davranış değil, eylem odaklıdır | `#yönetmelik` `#topluluk` |
-| `COMPLIANCE.md` | Bu projeye veya protokole uyumlu sayılmak için yerine getirilmesi gereken koşullar; işlevsel, teknik ve düzenleyici gereksinimler. "Bu projeyle uyumlu olmak için ne yapmanız gerekir?" sorusunu yanıtlar. `REQUIREMENTS.md` bu dosya tarafından kapsanır | `#yönetmelik` `#hukuki` |
-| `LICENSE.md` | Projenin kullanım hakları ve lisans koşulları. Projenin nasıl kullanılabileceğini, dağıtılabileceğini ve türetilebileceğini hukuki çerçevede tanımlar | `#hukuki` |
-| `LEGAL.md` | Hukuki sorumluluk reddi beyanları, resmi bildirimler ve dış kaynak atıfları. `LICENSE.md`'den farklı olarak kullanım hakları değil, sorumluluk sınırları ve yasal uyarıları içerir. `DISCLAIMER.md`, `NOTICE.md` ve `REFERENCES.md` bu dosya tarafından kapsanır | `#hukuki` |
-| `ARCHITECTURE.md` | Sistem yapısı ve tasarım genel görünümü; tasarım kararları ve gerekçeleri; bileşenler arası ilişkiler; süreçler, iş akışları ve yaşam döngüleri; veri şemaları, arayüz tanımları ve entegrasyon detayları. Projeyi teknik olarak kavramak isteyen herkesin başvurduğu ana teknik belgedir. `DESIGN.md`, `PROCESS.md`, `WORKFLOW.md`, `LIFECYCLE.md`, `SCHEMA.md`, `API.md`, `CHECKLIST.md` ve `INTEGRATIONS.md` bu dosya tarafından kapsanır. `CONFIGURATION.md`, `DEPENDENCIES.md`, `DEPLOYMENT.md`, `MIGRATION.md` ve `VERSIONING.md` bağlam gerektirdiğinde ayrı tutulabilir | `#teknik` |
-| `PERFORMANCE.md` | Projenin performans kriterleri, ölçüm yöntemleri, hedef değerler ve kıyaslama sonuçları. Her projenin bir performans beklentisi vardır; bu dosya o beklentileri ve nasıl ölçüldüğünü belgeler. `BENCHMARKS.md` bu dosya tarafından kapsanır | `#teknik` |
-| `SECURITY.md` | Projenin güvenlik politikaları ve güvenlik açığı bildirimi; tehdit modeli ve saldırı yüzeyi analizi; erişim kontrolü ve rol tabanlı yetkilendirme kuralları; kimlik doğrulama ve şifreleme standartları; denetim izi ve kayıt politikası; veri işleme ve saklama prosedürleri. `THREAT-MODEL.md`, `ACCESS-CONTROL.md`, `AUTHENTICATION.md`, `AUTHORIZATION.md`, `ENCRYPTION.md`, `AUDIT.md` ve `DATA-HANDLING.md` bu dosya tarafından kapsanır | `#güvenlik` |
-| `AGENTS.md` | Yapay zeka kodlama ajanlarına ve yazılım araçlarına proje hakkında yönlendirici bağlam sağlar. Hangi dosyalara dokunulacağını, hangi komutların çalıştırılacağını, projeye özgü kuralları ve genel proje bağlamını tanımlar. `robots.txt`'nin web tarayıcıları için ne ise bu dosya da AI ajanları için odur. `CONTEXT.md` ile örtüştüğü için bu dosya tarafından kapsanır. `CLAUDE.md`, `GEMINI.md`, `.cursorrules` gibi araç bazlı dosyalar da bu dosya tarafından kapsanır. Amp, Codex, Cursor, Devin, Gemini CLI, GitHub Copilot ve VS Code tarafından desteklenen açık bir standarttır. Web ortamında yayımlanan projeler için Git reposunun değil web sunucusunun kök dizinine ait olan `llms.txt` standardı da değerlendirilebilir | `#makineler` |
+**Bu yönetmeliği uygulayan tüm projeler bu dosyanın dosya başlığı altında, internet adresi ile birlikte bu yönetmeliği kullandığını belirtmelidir.**
+
+Okuyan veya düzenleyen kişinin beklentisinin yanı sıra, denetim ve takip için bu yol kullanılır. Bir kök bilgi dosyası olarak atıf edilen her bir dosya bu yönetmelik tarafından kapsanır.
+
+Proje bilgisi mimarisi için bu yönetmeliğin kullanıldığı belirtilmezse, veya alakadar kök bilgi dosyası README tarafından atıf edilmiyorsa bu yönetmelik geçersizdir.
+
+### [SUMMARY.md](./SUMMARY.md)
+
+İsmi, "özet" anlamına gelir.
+Projenin tüm bilgi dosyaları kapsamında yazılır.
+
+Bir el kitabı(aka handbook) amacı görür.
+Projeyi kullanıcıya açıklamayı hedefler.
+
+Projenin açıklaması ([README.md](#readmemd)), mimarisi ([ARCHITECTURE.md](#architecturemd)), manifestosu ([MANIFESTO.md](#manifestomd)) ve güvenlik sistemleri ([SECURITY.md](#securitymd)) gibi konuları anlatımda karışık bir şekilde sunar.
+
+Dosyanın belli bir mimarisi olmak zorunda değildir, anlatıcı ne anlatmak isterse o yazılmalıdır.
+
+### [CHANGELOG.md](./CHANGELOG.md)
+
+Versiyon bazlı değişikliklerin kısa ve yapılandırılmış kaydı. Her versiyon için ne değişti, ne eklendi, ne kaldırıldı bilgisini tarihsel sırayla tutar.
+
+### [HISTORY.md](./HISTORY.md)
+
+Projenin genel tarihsel seyri; önemli kararlar, dönüm noktaları ve geçirilen dönüşümleri anlatır.
+[CHANGELOG.md](#changelogmd) versiyon ve değişiklik odaklıyken bu dosya anlam, bağlam ve gerekçe odaklıdır.
+
+### [GLOSSARY.md](./GLOSSARY.md)
+
+İsmi, "sözlük" anlamına gelir.
+Projeye özgü terimlerin, kısaltmaların ve kavramların tanımlarını içerir.
+Farklı geçmişlerden gelen okuyucuların ortak bir dil kurabilmesi için yazılır.
+
+### [FAQ.md](./FAQ.md)
+
+İsmi İngilizce "Frequently Asked Questions" yani "Sık Sorulan Sorular" ifadesinin kısaltmasıdır.
+Projeyle ilgili tekrar eden sorular ile yanlış anlaşılmaya açık noktaları doğrudan ele alır.
+
+### [MANIFESTO.md](./MANIFESTO.md)
+
+Projenin varoluş gerekçesi, temel ilkeleri, kapsamı, sınırları ve uzun vadeli hedefleri. Projenin neden var olduğunu ve nereye gideceğini net biçimde ortaya koyar. `SCOPE.md`, `ROADMAP.md`, `MISSION.md`, `VISION.md`, `VALUES.md` ve `CHARTER.md` bu dosya tarafından kapsanır.
+
+### [GOVERNANCE.md](./GOVERNANCE.md)
+
+Karar alma yapısı, yetki seviyeleri ve liderlik düzeni; roller ile sorumluluklar; politika ve yönetmelik çerçevesi; onay mekanizmaları; olay müdahalesi ve yükseltme yolları; gözden geçirme ve denetim süreçleri; raporlama ve değerlendirme prosedürleri. Projenin nasıl yönetildiğini ve kimin neye yetkili olduğunu tanımlar. `ROLES.md`, `MAINTAINERS.md`, `AUTHORS.md`, `ACKNOWLEDGEMENTS.md`, `POLICY.md`, `REGULATION.md`, `INCIDENT.md`, `REVIEW.md`, `APPROVAL.md`, `ROLLBACK.md`, `OFFBOARDING.md`, `REPORT.md`, `ASSESSMENT.md` ve `RATIONALE.md` bu dosya tarafından kapsanır.
+
+### [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
+
+Projede beklenen davranış standartları, etik ilkeler, gizlilik anlayışı ve katılım rehberini içerir.
+Hem dışarıdan katılanlara hem de içerideki üyelere yönelik yazılır. `ETHICS.md`, `PRIVACY.md` ve `ONBOARDING.md` bu dosya tarafından kapsanır.
+
+### [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+Projeye nasıl katkı sağlanacağının teknik ve süreç odaklı rehberidir.
+Katkı türleri, iş akışı, inceleme süreci ve beklentiler burada açıklanır.
+[CODE_OF_CONDUCT.md](#code_of_conductmd)'den farklı olarak davranış değil, eylem odaklıdır.
+
+### [COMPLIANCE.md](./COMPLIANCE.md)
+
+Bu projeye veya protokole uyumlu sayılmak için yerine getirilmesi gereken koşulları; işlevsel, teknik ve düzenleyici gereksinimleri tanımlar.
+"Bu projeyle uyumlu olmak için ne yapmanız gerekir?" sorusunu yanıtlar. `REQUIREMENTS.md` bu dosya tarafından kapsanır.
+
+### [LICENSE](./LICENSE)
+
+Projenin kullanım hakları ve lisans koşullarını içerir.
+Projenin nasıl kullanılabileceğini, dağıtılabileceğini ve türetilebileceğini hukuki çerçevede tanımlar.
+
+### [LEGAL.md](./LEGAL.md)
+
+Hukuki sorumluluk reddi beyanları, resmi bildirimler ve dış kaynak atıflarını içerir.
+[LICENSE](#license)'dan farklı olarak kullanım hakları değil, sorumluluk sınırları ve yasal uyarıları kapsar. `DISCLAIMER.md`, `NOTICE.md` ve `REFERENCES.md` bu dosya tarafından kapsanır.
+
+### [ARCHITECTURE.md](./ARCHITECTURE.md)
+
+Sistem yapısı ve tasarım genel görünümü; tasarım kararları ve gerekçeleri; bileşenler arası ilişkiler; süreçler, iş akışları ve yaşam döngüleri; veri şemaları, arayüz tanımları ve entegrasyon detayları. Projeyi teknik olarak kavramak isteyen herkesin başvurduğu ana teknik belgedir. `DESIGN.md`, `PROCESS.md`, `WORKFLOW.md`, `LIFECYCLE.md`, `SCHEMA.md`, `API.md`, `CHECKLIST.md` ve `INTEGRATIONS.md` bu dosya tarafından kapsanır. `CONFIGURATION.md`, `DEPENDENCIES.md`, `DEPLOYMENT.md`, `MIGRATION.md` ve `VERSIONING.md` bağlam gerektirdiğinde ayrı tutulabilir.
+
+### [PERFORMANCE.md](./PERFORMANCE.md)
+
+Projenin performans kriterleri, ölçüm yöntemleri, hedef değerler ve kıyaslama sonuçlarını belgeler.
+Her projenin bir performans beklentisi vardır; bu dosya o beklentileri ve nasıl ölçüldüğünü ortaya koyar. `BENCHMARKS.md` bu dosya tarafından kapsanır.
+
+### [SECURITY.md](./SECURITY.md)
+
+Projenin güvenlik politikaları ve güvenlik açığı bildirimi; tehdit modeli ve saldırı yüzeyi analizi; erişim kontrolü ve rol tabanlı yetkilendirme kuralları; kimlik doğrulama ve şifreleme standartları; denetim izi ve kayıt politikası; veri işleme ve saklama prosedürleri. `THREAT-MODEL.md`, `ACCESS-CONTROL.md`, `AUTHENTICATION.md`, `AUTHORIZATION.md`, `ENCRYPTION.md`, `AUDIT.md` ve `DATA-HANDLING.md` bu dosya tarafından kapsanır.
+
+### [AGENTS.md](./AGENTS.md)
+
+Yapay zeka kodlama ajanlarına ve yazılım araçlarına proje hakkında yönlendirici bağlam sağlar.
+Hangi dosyalara dokunulacağını, hangi komutların çalıştırılacağını, projeye özgü kuralları ve genel proje bağlamını tanımlar.
+`robots.txt`'nin web tarayıcıları için ne ise bu dosya da AI ajanları için odur. `CONTEXT.md` ile örtüştüğü için bu dosya tarafından kapsanır. `CLAUDE.md`, `GEMINI.md`, `.cursorrules` gibi araç bazlı dosyalar da bu dosya tarafından kapsanır. Amp, Codex, Cursor, Devin, Gemini CLI, GitHub Copilot ve VS Code tarafından desteklenen açık bir standarttır. Web ortamında yayımlanan projeler için Git reposunun değil web sunucusunun kök dizinine ait olan `llms.txt` standardı da değerlendirilebilir.
