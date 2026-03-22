@@ -1,7 +1,10 @@
 # Proje Bilgisi Mimarisi Yönetmeliği
 
-Ulus projelerden oluşmaktadır. Bu projelerin kendileri hakkında yeterli bilgiyi belirtmeleri gerekir.
-Bu yönetmelik, projelerin kendileri hakkındaki bilgileri nasıl sunacağını belirler.
+Ulus projelerden oluşmaktadır. Bu projeler kollektif olarak geliştirilir ve çoğu zaman halka açıktır.
+Hem katkıda bulunanlar hemde gözlemciler için, Ulus'un tüm projeleri dökümante edilmelidir.
+Dökümantasyonun yanı sıra, tüm proje süreci mümkün olduğu kadar kayıt altına alınmalıdır.
+Bu yönetmelik, bir proje hakkındaki bilginin kayıt edilmesi üstüne kurallar içerir.
+Ulus'un tüm projelerinde bu yönetmeliğin belirlediği standartlar uygulanır.
 
 ## [Versiyonlandırma Sistemleri](https://en.wikipedia.org/wiki/Version_control)
 
