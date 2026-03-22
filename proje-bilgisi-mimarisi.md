@@ -8,9 +8,18 @@ Ulus'un tüm projelerinde bu yönetmeliğin belirlediği standartlar uygulanır.
 
 ## [Versiyonlandırma Sistemleri](https://en.wikipedia.org/wiki/Version_control)
 
-Tüm projeler zaman içerisinde değişebilir. Bu değişim bir versiyon kontrol sistemi tarafından takip altına alınmalıdır.
+Projeler zaman içerisinde değişebilir. Bu değişim bir versiyon kontrol sistemi tarafından takip altına alınmalı.
 
-Ulus'un versyion kontrol sistemi seçimi [Git](https://en.wikipedia.org/wiki/Git)'tir. Ana nedeni herkes tarafından kullanılmasıdır.
+Projelerin başlangıçlarından itibaren kayıt altına alınması bir seyir defteri mantığı görür.
+Bu mantık sayesinde eskiden nelerin yapıldığı, hangi konularda hangi kararların verildiği gözlemlenebilir olur.
+
+Ayrıca versiyon kontorl sistemleri çoğu zaman "brancing" yani dallandırma konseptini destekler.
+Bu da aynı anda projenin farklı versiyonları ve özellikleri üstünde ciddi kollektif çalışma potansiyeli demektir.
+
+Ulus'un versyion kontrol sistemi seçimi [Git](https://en.wikipedia.org/wiki/Git)'tir.
+Git ana olarak yazılım geliştirme tasarlanmış için olsa da, bir versiyon kontrol sistemi olarak ciddi kabul görmüştür ve kendini kanıtlamıştır.
+İnsan dili odaklı(dökümantasyon vb) çalışmalarda çıkarabileceği sorunların çözüldüğü başka bir alternatif bulunmamaktadır.
+Herşeye rağmen Git güçlü bir versiyon kontorl sistemidir, ve Ulus dijital ortamda tuttuğu tüm metin tabanlı projelerinde Git kullanmalıdır.
 
 ## Bilginin Biçimi
 
