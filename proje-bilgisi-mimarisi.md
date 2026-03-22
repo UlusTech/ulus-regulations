@@ -40,6 +40,15 @@ Sırası ile, [CommonMark](https://commonmark.org/) ve [GFM](https://en.wikipedi
 Projenin sunulduğu her ortamda gösterilmesi zorunlu olan kök(root) markdown(aka .md) dosyaları vardır.
 Bu dosyalar alakadar bilginin olası beklentisi nedeniyle yazılır. Yani bir dosya bağlam gereği beklenmiyorsa yazılmasına gerek yoktur.
 
+Burada standartize edilmiş bazı dosyalar, başka dosyalar yerine tercih edilmişir.
+Bu nedenle DESIGN.md kullanmak yerine ARCHITECTURE.md kullanırız.
+Böylece az dosya ile çok iş başarabiliriz.
+Az olan dosya sayısı düşünme ve planlama miktarını da azaltır, bu da hız ve kolaylık demektir.
+
+Kapsayıcı, çatı dosyalar konsepti kapsanan dosyaların kullanımını yasaklamaz.
+İhtiyaç durumunda kapsayıcı dosyadan ayrılabilecek dosyalar kapsayıcı dosya ile birlikte listelenir.
+Yinede ayırmamayı öneriyoruz; kapsanan dosyaların açıklamalarını bulunmuyor, bu kafa karışıklığına neden olabilir.
+
 Tüm kök dosyaları giriş(aka landing, README) dosyasında konumları ile belirtilmelidir.
 
 Aşağıda, projelerin kök dizininde kullanılabilecek tüm tanımlı bilgi dosyaları listelenmektedir.
