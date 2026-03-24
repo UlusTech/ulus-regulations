@@ -89,68 +89,137 @@ Dosyanın belli bir mimarisi olmak zorunda değildir, anlatıcı ne anlatmak ist
 
 ### [CHANGELOG.md](./CHANGELOG.md)
 
-Versiyon bazlı değişikliklerin kısa ve yapılandırılmış kaydı. Her versiyon için ne değişti, ne eklendi, ne kaldırıldı bilgisini tarihsel sırayla tutar.
+İsmi "change" yani "değişim" ve "log" yani "kayıt" kelimelerinin birleşimidir ve "Sehir Defteri" gibi bir anlam taşır.
+
+Versiyon bazlı değişikliklerin kısa ve yapılandırılmış kayıt defteri.
+Her versiyon için ne değişti, ne eklendi, ne kaldırıldı gibi bilgileri tarihsel sırayla tutar.
 
 ### [HISTORY.md](./HISTORY.md)
 
-Projenin genel tarihsel seyri; önemli kararlar, dönüm noktaları ve geçirilen dönüşümleri anlatır.
-[CHANGELOG.md](#changelogmd) versiyon ve değişiklik odaklıyken bu dosya anlam, bağlam ve gerekçe odaklıdır.
+İsmi "Tarih" veya "Geçmiş" anlamına gelir.
+
+Projede önemli kararlar verildiğinde, veya önemli bir sürüme/versiyona varıldığında bu dosya dahilinde kayıt alınır.
+Anlatım çoğu zaman [CHANGELOG.md](#changelogmd)'ye atıfta bulunarak yapılır.
+
+[CHANGELOG.md](#changelogmd)'nin aksine her bir versiyonda yazılmaz.
+Sadece önemli veya büyük olan gelişmeler yazılır.
+
+Bu dosya sürümler ile değil, bir hikaye anlatımı tipinde yazılır.
+
+Projenin anlam ve bağlamının takip edilebilmesi için kullanılır.
+
+**Şu dosyaları kapsar:**
+
+- `RATIONALE.md`: Sebep ver gerekçeler bu dosyada anlatılır.
 
 ### [GLOSSARY.md](./GLOSSARY.md)
 
 İsmi, "sözlük" anlamına gelir.
 Projeye özgü terimlerin, kısaltmaların ve kavramların tanımlarını içerir.
+
 Farklı geçmişlerden gelen okuyucuların ortak bir dil kurabilmesi için yazılır.
+
+Her bir kelime bir başlık olarak yazılmalıdır.
+Bu, proje özel terminolojilerin başka dosyalardan atıf edilebilmesini sağlar.
+
+**Örnek kullanım:**
+
+```markdown
+# Lorem Ipsum
+
+[Yönetmelikler](./GLOSSARY.md/yonetmelik) Ulus'un yapı taşlarıdır.
+```
 
 ### [FAQ.md](./FAQ.md)
 
 İsmi İngilizce "Frequently Asked Questions" yani "Sık Sorulan Sorular" ifadesinin kısaltmasıdır.
+
 Projeyle ilgili tekrar eden sorular ile yanlış anlaşılmaya açık noktaları doğrudan ele alır.
+
+Aşırı kısa cevaplar verilmelidir.
+Mümkün olan yerlerde "daha fazla detay için X.md dosyasını okuyun" gibi yönlendirmeler bulundurmalıdır.
 
 ### [MANIFESTO.md](./MANIFESTO.md)
 
-Projenin varoluş gerekçesi, temel ilkeleri, kapsamı, sınırları ve uzun vadeli hedefleri. Projenin neden var olduğunu ve nereye gideceğini net biçimde ortaya koyar.
+Manifesto, bir kişinin, grubun veya hareketin inançlarını, amaçlarını ve ilkelerini kamuoyuna açıkça ilan ettiği yazılı bildirge demektir.
+Kelime İtalyanca manifesto'dan gelir, o da Latince manifestus (açık, aşikar) kökünden türemiştir.
 
-**Şu dosyaları kapsar:**
+Projelerin içerikleri kadar arkasındaki fikirler, idealler de önemlidir.
+Bu dosya, bu proje üstünde çalışan kişilerin idealleri ve motivasyonlarını, manifestolarını gösterir.
 
-- `SCOPE.md`
-- `ROADMAP.md`
-- `MISSION.md`
-- `VISION.md`
-- `VALUES.md`
-- `CHARTER.md`
+**Bu dosya şu dosyaları kapsar:**
+
+- `SCOPE.md`: Projenin neyi hedeflediği ve hangi alanı kapsadığı bu dosyada belirtilir.
+- `MISSION.md`: Görev veya amaç genelde maifestonun bir parçasıdır.
+- `VISION.md`: Vizyon manifestonun bir parçasıdır.
+- `VALUES.md`: Nelere değer verildiği ve nelerin idealize edildi manifesto konseptinin bir parçasıdır.
+
+### [ROADMAP.md](./ROADMAP.md)
+
+İsminin anlamı; "road" yani "yol", "map" yani "harita" anlamına gelen kelimelerin birleşimi olan "Yol haritası"'dır.
+
+Projenin önündeki hedeflenen şeyler bu dosyada yazılır.
+Bir özelliğin planlanması bu dosyaya yazılması demektir.
+Bu dosya geçmişi tutmaz, sadece geleceğe bakar.
+
+"Ne yapmak istiyoruz" konseptinde bir dosyadır.
 
 ### [GOVERNANCE.md](./GOVERNANCE.md)
 
-Karar alma yapısı, yetki seviyeleri ve liderlik düzeni; roller ile sorumluluklar; politika ve yönetmelik çerçevesi; onay mekanizmaları; olay müdahalesi ve yükseltme yolları; gözden geçirme ve denetim süreçleri; raporlama ve değerlendirme prosedürleri. Projenin nasıl yönetildiğini ve kimin neye yetkili olduğunu tanımlar.
+İsim, "yönetişim" veya "yönetim" gibi anlamlara denk gelir.
+Çoğu zaman "hükümet" anlamına gelen "government" kelimesi ile karıştırılır, ama burada "yönetim işleri" olarak kullanılır.
+
+Bu dosya, projede yönetimsel yapının nasıl olduğunu anlatır.
+Kim ne yapar, süreçler nasıl işler; işleyişi öğrenmek isteyenlerin bakacağı yerdir.
+
+**Bu dosyada şunlar yer alabilir:**
+
+1. Kim: Roller, yetkiler, hiyerarşi veya paralel düzen
+2. Ne: Politikalar ve karar alma yapısı
+3. Süreç: Onay, olay müdahalesi, gözden geçirme mekanizmaları
+4. İşletim: Raporlama, değerlendirme, offboarding
 
 **Şu dosyaları kapsar:**
 
-- `ROLES.md`
-- `MAINTAINERS.md`
-- `AUTHORS.md`
-- `ACKNOWLEDGEMENTS.md`
-- `POLICY.md`
-- `REGULATION.md`
-- `INCIDENT.md`
-- `REVIEW.md`
-- `APPROVAL.md`
-- `ROLLBACK.md`
-- `OFFBOARDING.md`
-- `REPORT.md`
-- `ASSESSMENT.md`
-- `RATIONALE.md`
+- *Kim:*
+  - `ROLES.md`: Roller ve yetki seviyeleri bu dosyada tanımlanabilir.
+  - `MAINTAINERS.md`: Sorumlu geliştirici gruplar veya kişiler burada listelenir.
+  - `AUTHORS.md`: Projeyi oluşturan ya da düzenleyenlerin bilgisi bu dosyada bulunur.
+  - `ACKNOWLEDGEMENTS.md`: Katkıda bulunanların tanınması bu dosyada yer alır.
+- *Ne:*
+  - `POLICY.md`: Proje politikası bu dosyada belirlenir.
+- *Süreç:*
+  - `INCIDENT.md`: Olay müdahalesi ve yükseltme yolları bu dosyada açıklanır.
+  - `REVIEW.md`: Gözden geçirme ve denetim süreçleri bu dosyada yer alır.
+  - `APPROVAL.md`: Onay mekanizmaları bu dosyada tanımlanır.
+  - `ROLLBACK.md`: Geri alma prosedürleri bu dosyada açıklanır.
+- *İşletim:*
+  - `OFFBOARDING.md`: Ayrılış süreçleri bu dosyada tanımlanır.
+  - `REPORT.md`: Raporlama prosedürleri bu dosyada yer alır.
+  - `ASSESSMENT.md`: Değerlendirme süreçleri bu dosyada açıklanır.
 
 ### [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
 
-Projede beklenen davranış standartları, etik ilkeler, gizlilik anlayışı ve katılım rehberini içerir.
+İsmi, "code" yani "kural" ve "conduct" yani "davranış" kelimelerinden oluşur.
+Davranış kuralları veya sözleşmesi anlamına gelir.
+
+Bu dosya projenin sosyal kurallarını içerir.
+Cinsel içerikli ögelerin veya zorbalığın yasaklanması gibi konulara kullanılır.
+Yani davranış standartlarını belirler.
+
+Bu projede çalışan kişilerin bazı etik konularda ortak bir yolu kabul etmesi için vardır.
+Etik ilkeler, gizlilik anlayışı gibi konulara değinir.
+
+Bu dosya bir katılım rehberi görevi de görür, projeye yeni katılan kişilerin okuması için idealize edilmiştir.
+Proje ile alakalı tüm çalışmalarda etkilidir.  
+
 Hem dışarıdan katılanlara hem de içerideki üyelere yönelik yazılır.
 
 **Şu dosyaları kapsar:**
 
-- `ETHICS.md`
-- `PRIVACY.md`
-- `ONBOARDING.md`
+- `ETHICS.md`: Etik ilkeler davranış kurallarının fikir temelini oluşturur.
+- `PRIVACY.md`: Gizlilik anlayışı davranış standartlarının bir parçasıdır.
+- `ONBOARDING.md`: Davranış kuralları projeye yeni katılanların ilk okuması gereken belgedir.
 
 ### [CONTRIBUTING.md](./CONTRIBUTING.md)
 
@@ -179,8 +248,8 @@ Hukuki sorumluluk reddi beyanları, resmi bildirimler ve dış kaynak atıfları
 
 **Şu dosyaları kapsar:**
 
-- `DISCLAIMER.md`
-- `NOTICE.md`
+- `DISCLAIMER.md`: Uyarılar belirgin bir şekilde bu dosya içerisine koyulabilir.
+- `NOTICE.md`: Mevcut dosya bildirilerin burada aranabileceği, dikkat çekici bir dosyadır.
 - `REFERENCES.md`
 
 ### [ARCHITECTURE.md](./ARCHITECTURE.md)
