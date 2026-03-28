@@ -1,11 +1,11 @@
 # Birimler ve Projeler Yönetmeliği
 
 Her bir birim kendi klasörüne sahiptir.
-Projeler sadece birimlere aittir, bu nedenle projeler alakadar birimin altında açılmalıdır.
+Projeler birimlere aittir, bu nedenle projeler ilgili birimin altında açılmalıdır.
 
 Birimler ve projeler yönetmeliklere sahiptir. Bu yönetmelikler alakadar klasörde bulundurulur.
 
-## Birimler ve Projeler'in Listesi
+## Birimler ve Projelerin Listesi
 
 - Ulus Tech
   - [RDIP](https://github.com/UlusTech/relative-digital-identity-protocol-specs)
