@@ -3,21 +3,12 @@
 [![Language: TR](https://img.shields.io/badge/Language-TR-red.svg)](./README.md)
 [![Language: EN](https://img.shields.io/badge/Language-EN-blue.svg)](./README.en.md)
 
-Ulus yönetmelikler ile çalışır.
-Bu yönetmelikler herşeyi belirler.
-Yönetmelikler kültürleri yönetmek için yazılmaz, kültürler yönetmelikleştirilir.
+Ulus, birimlerden oluşur ve yönetmelikler ile çalışır. Yönetmelikler; Ulus'un iş ahlakı, projelerin işleyişi gibi konuları standardize ettiği dosyalardır. Eğer Ulus ile ilgileniyorsanız, burası gelmeniz gereken ilk yer.
 
-Burada gördüğünüz herşey bir grup insanın kabul ettiği bir kültürel yapıdır.
-Ulus, iş ahlakı gibi konuları yönetmelikler ile standartize eder.
+Yönetmelikleri Ulus markasını yöneten Üst Yönetim Kurulu düzenler ve bu yönetmelikler Ulus içerisindeki her şeyi belirler. Bu dosyalarda gördüğünüz her şey bir grup insanın kabul ettiği kültürel bir yapıdır. Yönetmelikler bu kültürü yönetmek için yazılmazlar, aksine bu kültür yönetmelikleştirilir. 
 
-Eğer Ulus ile ilgileniyorsanız, burası gelmeniz gereken ilk yer.
+Üst Yönetim Kurulu, yönetmelikler için [Git](https://git-scm.com/) kullanır.
+Bundan faydalanan Ulus Tech; bu proje ile yönetmelikleri, geliştiricilerin gereksinimleri üzerine erişim kolaylığı sağlamak amacıyla halka açık olarak GitHub üzerinden sunar. Yönetmelikler aslen Ulus'un websitesi üzerinden bir arayüz ile sunulacak ve websitesi üzerinden bu projenin bire bir aynısı indirilebilecek.
 
-Bu proje, Ulus Tech tarafından geliştiricilerin gereksinimleri üzerine halka açık olarak sunulur.
+Bu kaynak yalnızca bir birimin projesidir. Verilerin kesinliği ve doğruluğu adına Ulus'un websitesi kullanılmalıdır.
 
-Ulus, birimlerden oluşan bir yapıdır.
-Yönetmelikleri, bu birimleri bir araya toplayan Ulus markasını yöneten Üst Yönetim Kurulu yönetir.
-Üst Yönetim Kurulu yönetmelikler için Git kullanır.
-Ulus Tech bu fırsatı kullanrak yönetmelikleri github'a taşıma ve halkın erişimini kolaylaştırma kararı aldı.
-Yönetmelikler aslen Ulus'un websitesi üzerinden bir arayüz ile sunulacak, ayrıca yine websitesi üzerinden bu projenin birebir aynısı indirilebilecek.
-Bu projenin amacı erişim kolaylığı.
-Yani bu kaynak bir birimin projesidir, verilerin kesinliği adına web sitesi kullanılmalıdır.

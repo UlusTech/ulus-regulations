@@ -7,26 +7,26 @@ Bu yönetmelik, projelerin kendileri hakkındaki bilgileri nasıl sunacağını 
 
 Tüm projeler zaman içerisinde değişebilir. Bu değişim bir versiyon kontrol sistemi tarafından takip altına alınmalıdır.
 
-Ulus'un versyion kontrol sistemi seçimi [Git](https://en.wikipedia.org/wiki/Git)'tir. Ana nedeni herkes tarafından kullanılmasıdır.
+Ulus'un versiyon kontrol sistemi seçimi [Git](https://en.wikipedia.org/wiki/Git)'tir. Bu seçimin ana nedeni piyasada herkesin kullanması ve alternatiflerine karşı daha kullanışlı olmasıdır.
 
 ## Bilginin Biçimi
 
-Projelerin tüm bilgileri "özel bir program kullanmadan", insanların anlayabileceği bir formatta olmalıdır.
-Yani, veri versiyon kontrol sistemine bir versiyon olarak kayıt edilirken PDF gibi tiplerde olmaz.
+Projelerin tüm bilgileri "üçüncü taraf bir program kullanmadan" insanların anlayabileceği bir formatta olmalıdır.
+Yani veri, versiyon kontrol sistemine yeni bir versiyon olarak kayıt edilirken PDF gibi okunabilmesi için üçüncü taraf bir program gerektiren tiplerde olmaz.
 
-Ulus, tüm metin işleri için [Markdown](https://en.wikipedia.org/wiki/Markdown) kullanır(yönetmelik yazım yönetmeliği).
+Ulus, tüm metin işleri için [Markdown](https://en.wikipedia.org/wiki/Markdown) kullanır (yönetmelik yazım yönetmeliği).
 Bu nedenle projelerin tüm bilgilerinin mümkünse Markdown tipinde depolanması gerekir.
 [CommonMark](https://commonmark.org/) ve [GFM](https://en.wikipedia.org/wiki/Markdown#GFM) üzerinden gidilmesi gerekir.
 
 ## Kök Markdown Dosyaları
 
-Projenin sunulduğu her ortamda gösterilmesi zorunlu olan kök(root) markdown(aka .md) dosyaları vardır.
-Bu dosyalar alakadar bilginin olası beklentisi nedeniyle yazılır. Yani bir dosya bağlam gereği beklenmiyorsa yazılmasına gerek yoktur.
+Projenin sunulduğu her ortamda gösterilmesi zorunlu olan kök (root) markdown (.md) dosyaları vardır.
+Bu dosyalar ilgili bilginin olası beklentisi nedeniyle yazılır. Yani bir dosyaya ihtiyaç duyulması beklenmiyorsa yazılmasına gerek yoktur.
 
-Tüm dosyalar giriş(aka landing) sayfasında konumları ile belirtilmelidir.
+Tüm dosyalar giriş (landing) sayfasında konumları ile belirtilmelidir.
 
-Aşağıda, projelerin kök dizininde kullanabileceği tüm tanımlı `.md` dosyaları listelenmektedir.
-Her dosya; açıklaması ve hangi bağlamlara ait olduğunu belirten etiketlerle birlikte verilmiştir.
+Aşağıda projelerin kök dizininde kullanabileceği tüm tanımlı `.md` dosyaları listelenmektedir.
+Her dosya, açıklaması ve hangi bağlamlara ait olduğunu belirten etiketlerle birlikte verilmiştir.
 
 **Etiketler:**
 
@@ -39,14 +39,14 @@ Her dosya; açıklaması ve hangi bağlamlara ait olduğunu belirten etiketlerle
 - `#topluluk` — Katılım, katkı ve iletişim
 - `#güvenlik` — Güvenlik politikaları, tehdit ve erişim yönetimi
 - `#hukuki` — Lisans, sorumluluk ve yasal bildirimler
-- `#makineler` — İnsan için değil; yazılım araçları, tarayıcılar ve yapay zeka ajanları için yazılan dosyalar
+- `#makineler` — İnsanlar için değil; yazılım araçları, tarayıcılar ve yapay zeka ajanları için yazılan dosyalar
 
 ---
 
 | Dosya | Açıklama | Etiketler |
 | --- | --- | --- |
 | `README.md` | Projenin giriş noktası. Projenin ne olduğunu, ne işe yaradığını, nasıl kullanılacağını, iletişim bilgilerini ve genel tanıtımı içerir. Projeye ilk kez bakan herkesin okuduğu ilk dosyadır | `#evrensel` |
-| `SUMMARY.md` | Projenin alandan ve teknik bilgiden bağımsız, herkese hitap eden kapsamlı özeti. Bir el kitabı veya kılavuz niteliği taşır; projeyi derinlemesine değil, bütünüyle kavramak isteyen okuyucu için yazılır | `#evrensel` |
+| `SUMMARY.md` | Projenin alandan ve teknik bilgiden bağımsız, herkese hitap eden kapsamlı özeti. Bir el kitabı veya kılavuz niteliği taşır; projeyi derinlemesine değil, yüzeysel olarak kavramak isteyen okuyucu için yazılır | `#evrensel` |
 | `CHANGELOG.md` | Versiyon bazlı değişikliklerin kısa ve yapılandırılmış kaydı. Her versiyon için ne değişti, ne eklendi, ne kaldırıldı bilgisini tarihsel sırayla tutar | `#evrensel` `#operasyon` |
 | `HISTORY.md` | Projenin genel tarihsel seyri; önemli kararlar, dönüm noktaları ve geçirilen dönüşümler. `CHANGELOG.md` versiyon ve değişiklik odaklıyken `HISTORY.md` anlam, bağlam ve gerekçe odaklıdır | `#evrensel` `#operasyon` |
 | `GLOSSARY.md` | Projeye özgü terimlerin, kısaltmaların ve kavramların tanımları. Farklı geçmişlerden gelen okuyucuların ortak bir dil kurabilmesi için yazılır | `#evrensel` |
