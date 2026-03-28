@@ -344,3 +344,4 @@ Hangi dosyalara dokunulacağını, hangi komutların çalıştırılacağını, 
 - `CLAUDE.md`
 - `GEMINI.md`
 - `.cursorrules`
+
