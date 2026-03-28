@@ -223,23 +223,57 @@ Hem dışarıdan katılanlara hem de içerideki üyelere yönelik yazılır.
 
 ### [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-Projeye nasıl katkı sağlanacağının teknik ve süreç odaklı rehberidir.
-Katkı türleri, iş akışı, inceleme süreci ve beklentiler burada açıklanır.
+İsmi, "katkıda bulunmak" olmak anlamına gelir.
+Projeye katkıda bulunmak isteyen kişilere bir rehber olması için yazılır.
+
+Çoğu zaman ana yazım nedeni, projede çalışmak isteyen insanlara detayları sunmaktır.
+Bu nedenle tekniktir, süreç odaklıdır.
+
+**Şunları içerebilir:**
+
+- Katkı türleri
+- İş akışı (workflow)
+- İnceleme süreci ve katkılara karşı beklentiler
+
 [CODE_OF_CONDUCT.md](#code_of_conductmd)'den farklı olarak davranış değil, eylem odaklıdır.
+Projedeki katkı ve çalışma kültürüne değinir.
 
 ### [COMPLIANCE.md](./COMPLIANCE.md)
 
-Bu projeye veya protokole uyumlu sayılmak için yerine getirilmesi gereken koşulları; işlevsel, teknik ve düzenleyici gereksinimleri tanımlar.
-"Bu projeyle uyumlu olmak için ne yapmanız gerekir?" sorusunu yanıtlar.
+İsmi, "uyum" ve "itaat" gibi anlamlara denk gelir.
+Projeye veya protokole uymak veya itaat etmek için koşulları bulundurur.
+
+Bir proje veya protokol tam olarak uygulanmasa bile çalışabilir.
+Bu dosya minimum uyumluluk gereksinimlerini belirtir.
+Uyumluluk seviyeleri belirleyip bu seviyeler üstünden yargılara varılabilmesini sağlayabilir.
+
+Çoğu zaman örnekler veya direkt "bu uyumlu" gibi listeler bulundurur.
+Özellikle protokollerde "İmplementations" yani "Uygulamalar" olarak görülür.
+Bu listeler hem bu projeyi, hemde uyumlu olan projeyi öne çıkarmak için kullanılabilir.
+Topluluğun büyümesi için güzel bir şeydir.
 
 **Şu dosyaları kapsar:**
 
-- `REQUIREMENTS.md`
+- `REQUIREMENTS.md`: Projenin gereksinimleri bu dosyada belirlenir, çoğu zaman ikinci bir dosyaya gerek olmaz.
 
 ### [LICENSE](./LICENSE)
 
+İsmi, "Lisans" anlamına gelir.
 Projenin kullanım hakları ve lisans koşullarını içerir.
 Projenin nasıl kullanılabileceğini, dağıtılabileceğini ve türetilebileceğini hukuki çerçevede tanımlar.
+
+Bu dosya `.md` uzantısına sahip değildir, ve olmamalıdır.
+Otomatik sistemler çoğu zaman düz "LICENSE" ismini arar, bu uyumluğun kaybı lisans ihlallerine neden olabilir.
+
+Lisans projenin [manifestosu](#manifestomd)nun bir parçasıdır.
+Proje ne kadar kullanıma açık olursa, o kadar yüksek potansiyele sahiptir.
+Projeleri kısıtlamak teoride artılara sahip olsa da, pratikte bir o kadar da çok şeyi kötü etkiler.
+Birebir tekrardan dağıtmanın yani başka bir değişle redistribute etmenin yasak olduğu lisansları öneririz.
+
+*Her ne kadar önermesekte, lisansları bir kurum yönetmediği için istediğiniz lisansı kendiniz yazabilirsiniz.*
+*Ama bu çoğu zaman kötü bir fikirdir, yasal bilgi eksikliği ve bilinmeyen bir lisansa karşı toplulukta oluşabilecek negatif hissiyatlar örnek sonuçlardır.*
+
+https://spdx.org/licenses/, https://license.md/ veya https://choosealicense.com/ adreslerini kullanarak lisansları inceleyebilirsiniz.
 
 ### [LEGAL.md](./LEGAL.md)
 
