@@ -1,8 +1,8 @@
 # Proje Bilgisi Mimarisi Yönetmeliği
 
-Ulus projelerden oluşmaktadır. Bu projeler kollektif olarak geliştirilir ve çoğu zaman halka açıktır.
-Hem katkıda bulunanlar hemde gözlemciler için, Ulus'un tüm projeleri dökümante edilmelidir.
-Dökümantasyonun yanı sıra, tüm proje süreci mümkün olduğu kadar kayıt altına alınmalıdır.
+Ulus projelerden oluşmaktadır. Bu projeler kolektif olarak geliştirilir ve çoğu zaman halka açıktır.
+Hem katkıda bulunanlar hem de gözlemciler için Ulus'un tüm projeleri dökümante edilmelidir.
+Dökümantasyonun yanı sıra tüm proje süreci mümkün olduğu kadar kayıt altına alınmalıdır.
 Bu yönetmelik, bir proje hakkındaki bilginin kayıt edilmesi üstüne kurallar içerir.
 Ulus'un tüm projelerinde bu yönetmeliğin belirlediği standartlar uygulanır.
 
@@ -13,31 +13,31 @@ Projeler zaman içerisinde değişebilir. Bu değişim bir versiyon kontrol sist
 Projelerin başlangıçlarından itibaren kayıt altına alınması bir seyir defteri mantığı görür.
 Bu mantık sayesinde eskiden nelerin yapıldığı, hangi konularda hangi kararların verildiği gözlemlenebilir olur.
 
-Ayrıca versiyon kontorl sistemleri çoğu zaman "brancing" yani dallandırma konseptini destekler.
-Bu da aynı anda projenin farklı versiyonları ve özellikleri üstünde ciddi kollektif çalışma potansiyeli demektir.
+Ayrıca versiyon kontrol sistemleri çoğu zaman "branching" yani dallandırma konseptini destekler.
+Bu da aynı anda projenin farklı versiyonları ve özellikleri üstünde ciddi kolektif çalışma potansiyeli demektir.
 
-Ulus'un versyion kontrol sistemi seçimi [Git](https://en.wikipedia.org/wiki/Git)'tir.
-Git ana olarak yazılım geliştirme tasarlanmış için olsa da, bir versiyon kontrol sistemi olarak ciddi kabul görmüştür ve kendini kanıtlamıştır.
-İnsan dili odaklı(dökümantasyon vb) çalışmalarda çıkarabileceği sorunların çözüldüğü başka bir alternatif bulunmamaktadır.
-Herşeye rağmen Git güçlü bir versiyon kontorl sistemidir, ve Ulus dijital ortamda tuttuğu tüm metin tabanlı projelerinde Git kullanmalıdır.
+Ulus'un versiyon kontrol sistemi seçimi [Git](https://en.wikipedia.org/wiki/Git)'tir.
+Git ana olarak yazılım geliştirme için tasarlanmış olsa da bir versiyon kontrol sistemi olarak ciddi kabul görmüştür ve kendini kanıtlamıştır.
+İnsan dili odaklı (dökümantasyon vb.) çalışmalarda çıkarabileceği sorunların çözüldüğü başka bir alternatif bulunmamaktadır.
+Her şeye rağmen Git, güçlü bir versiyon kontrol sistemidir ve Ulus dijital ortamda tuttuğu tüm metin tabanlı projelerinde Git kullanmalıdır.
 
 ## Bilginin Biçimi
 
-Projelerin tüm bilgileri "özel bir program kullanmadan", insanların anlayabileceği bir formatta olmalıdır.
-Yani; veri, [versiyon kontrol sistemi](#versiyonlandırma-sistemleri)ne bir versiyon olarak kayıt edilirken PDF gibi tiplerde olamaz.
-PDF, JPG, PNG, MP3, MP4 ve OBJ gibi dosya tipleri makina hedefli bir tiptedir ve saf hali ile insanlar okuyamaz.
+Projelerin tüm bilgileri "özel bir program kullanmadan" insanların anlayabileceği bir formatta olmalıdır.
+Yani veri, [versiyon kontrol sistemi](#versiyonlandırma-sistemleri)ne bir versiyon olarak kayıt edilirken PDF gibi tiplerde olamaz.
+PDF, JPG, PNG, MP3, MP4 ve OBJ gibi dosya tipleri makine hedefli bir tiptedir ve saf hali ile insanlar tarafından okunamaz.
 
-Bir dosyanın erişimi için bir programın kullanılmasının zorunlu olması erişimi katmanlandırır.
+Bir dosyanın okunması için özel bir programın kullanılmasının zorunlu olması erişimi katmanlandırır.
 Bu durum [şeffaflık](./şeffaflık-ve-berraklık.md) ideallerimize uygun değil.
 
 Ulus, tüm metin işleri için [Markdown](https://en.wikipedia.org/wiki/Markdown) kullanır.
 Bu durum [Yönetmelik Yazım Yönetmeliği](./yönetmelik-yazım-yönetmeliği.md)'nde belirtişmiştir.
 Bu nedenle projelerin tüm bilgilerinin Markdown tipinde olması gerekir.
-Sırası ile, [CommonMark](https://commonmark.org/) ve [GFM](https://en.wikipedia.org/wiki/Markdown#GFM) standartları tercih edilir.
+Sırası ile [CommonMark](https://commonmark.org/) ve [GFM](https://en.wikipedia.org/wiki/Markdown#GFM) standartları tercih edilir.
 
 ## Kök Markdown Dosyaları
 
-Projenin sunulduğu her ortamda gösterilmesi zorunlu olan kök(root) markdown(aka .md) dosyaları vardır.
+Projenin sunulduğu her ortamda gösterilmesi zorunlu olan kök (root) Markdown (.md) dosyaları vardır.
 Bu dosyalar alakadar bilginin olası beklentisi nedeniyle yazılır. Yani bir dosya bağlam gereği beklenmiyorsa yazılmasına gerek yoktur.
 
 Burada standartize edilmiş bazı dosyalar, başka dosyalar yerine tercih edilmişir.
@@ -45,33 +45,33 @@ Bu nedenle DESIGN.md kullanmak yerine ARCHITECTURE.md kullanırız.
 Böylece az dosya ile çok iş başarabiliriz.
 Az olan dosya sayısı düşünme ve planlama miktarını da azaltır, bu da hız ve kolaylık demektir.
 
-Kapsayıcı, çatı dosyalar konsepti kapsanan dosyaların kullanımını yasaklamaz.
+Kapsayıcı çatı dosyalar konsepti kapsanan dosyaların kullanımını yasaklamaz.
 İhtiyaç durumunda kapsayıcı dosyadan ayrılabilecek dosyalar kapsayıcı dosya ile birlikte listelenir.
-Yinede ayırmamayı öneriyoruz; kapsanan dosyaların açıklamalarını bulunmuyor, bu kafa karışıklığına neden olabilir.
+Yine de ayırmamayı öneriyoruz; kapsanan dosyaların açıklamaları bulunmuyor, bu durum kafa karışıklığına neden olabilir.
 
-Tüm kök dosyaları giriş(aka landing, README) dosyasında konumları ile belirtilmelidir.
+Tüm kök dosyaları giriş (landing yani README) dosyasında konumları ile belirtilmelidir.
 
 Aşağıda, projelerin kök dizininde kullanılabilecek tüm tanımlı bilgi dosyaları listelenmektedir.
 *Dosyaların isimlerinin üstüne tıklayarak örnek dosyalara gidilebilir.*
 
 ### [README.md](./README.md)
 
-İsmi İngilizce "read" yani "oku", ve "me" yani "beni" kelimelerinin birleşimidir.
+İsmi İngilizce "read" yani "oku" ve "me" yani "beni" kelimelerinin birleşimidir.
 Projeye bakan kişinin dikkatini çekmek, burdan başla demek için kullanılır.
 Yani projenin giriş noktası, ilk izlenim dosyasıdır.
 
 Dosya mimarisi şu şekildedir:
 
-1. Dosya başlığı'nın altında/içinde projenin ne olduğu açıklanır.
+1. Dosya başlığının altında/içinde projenin ne olduğu açıklanır.
 2. "Ne İşe Yarar" altında projenin ne amaçlar ile kullanılmak üzere hazırlandığı yazar.
 3. "Nasıl Kullanılır" altında basit bir kullanım kılavuzu bulunur. Ayrıca bir eğitici görevi de görmelidir.
-4. "Diğer Konular" atlında diğer tüm bilgi dosyaları `- [Dosya](./DOSYA.md)` şeklinde listelenmelidir.
+4. "Diğer Konular" altında diğer tüm bilgi dosyaları `- [Dosya](./DOSYA.md)` şeklinde listelenmelidir.
 
 ---
 
-**Bu yönetmeliği uygulayan tüm projeler bu dosyanın dosya başlığı altında, internet adresi ile birlikte bu yönetmeliği kullandığını belirtmelidir.**
+**Bu yönetmeliği uygulayan tüm projeler bu dosyanın dosya başlığı altında internet adresi ile birlikte bu yönetmeliği kullandığını belirtmelidir.**
 
-Okuyan veya düzenleyen kişinin beklentisinin yanı sıra, denetim ve takip için bu yol kullanılır. Bir kök bilgi dosyası olarak atıf edilen her bir dosya bu yönetmelik tarafından kapsanır.
+Okuyan veya düzenleyen kişinin beklentisinin yanı sıra denetim ve takip için bu yol kullanılır. Bir kök bilgi dosyası olarak atıf edilen her bir dosya bu yönetmelik tarafından kapsanır.
 
 Proje bilgisi mimarisi için bu yönetmeliğin kullanıldığı belirtilmezse, veya alakadar kök bilgi dosyası README tarafından atıf edilmiyorsa bu yönetmelik geçersizdir.
 
@@ -80,7 +80,7 @@ Proje bilgisi mimarisi için bu yönetmeliğin kullanıldığı belirtilmezse, v
 İsmi, "özet" anlamına gelir.
 Projenin tüm bilgi dosyaları kapsamında yazılır.
 
-Bir el kitabı(aka handbook) amacı görür.
+Bir el kitabı (handbook) amacı görür.
 Projeyi kullanıcıya açıklamayı hedefler.
 
 Projenin açıklaması ([README.md](#readmemd)), mimarisi ([ARCHITECTURE.md](#architecturemd)), manifestosu ([MANIFESTO.md](#manifestomd)) ve güvenlik sistemleri ([SECURITY.md](#securitymd)) gibi konuları anlatımda karışık bir şekilde sunar.
@@ -89,7 +89,7 @@ Dosyanın belli bir mimarisi olmak zorunda değildir, anlatıcı ne anlatmak ist
 
 ### [CHANGELOG.md](./CHANGELOG.md)
 
-İsmi "change" yani "değişim" ve "log" yani "kayıt" kelimelerinin birleşimidir ve "Sehir Defteri" gibi bir anlam taşır.
+İsmi "change" yani "değişim" ve "log" yani "kayıt" kelimelerinin birleşimidir ve "Seyir Defteri" gibi bir anlam taşır.
 
 Versiyon bazlı değişikliklerin kısa ve yapılandırılmış kayıt defteri.
 Her versiyon için ne değişti, ne eklendi, ne kaldırıldı gibi bilgileri tarihsel sırayla tutar.
@@ -110,7 +110,7 @@ Projenin anlam ve bağlamının takip edilebilmesi için kullanılır.
 
 **Şu dosyaları kapsar:**
 
-- `RATIONALE.md`: Sebep ver gerekçeler bu dosyada anlatılır.
+- `RATIONALE.md`: Sebep ve gerekçeler bu dosyada anlatılır.
 
 ### [GLOSSARY.md](./GLOSSARY.md)
 
@@ -120,7 +120,7 @@ Projeye özgü terimlerin, kısaltmaların ve kavramların tanımlarını içeri
 Farklı geçmişlerden gelen okuyucuların ortak bir dil kurabilmesi için yazılır.
 
 Her bir kelime bir başlık olarak yazılmalıdır.
-Bu, proje özel terminolojilerin başka dosyalardan atıf edilebilmesini sağlar.
+Bu, projeye özel terminolojilerin başka dosyalardan atıf edilebilmesini sağlar.
 
 **Örnek kullanım:**
 
@@ -132,7 +132,7 @@ Bu, proje özel terminolojilerin başka dosyalardan atıf edilebilmesini sağlar
 
 ### [FAQ.md](./FAQ.md)
 
-İsmi İngilizce "Frequently Asked Questions" yani "Sık Sorulan Sorular" ifadesinin kısaltmasıdır.
+İsmi İngilizce "Frequently Asked Questions" yani "Sıkça Sorulan Sorular" ifadesinin kısaltmasıdır.
 
 Projeyle ilgili tekrar eden sorular ile yanlış anlaşılmaya açık noktaları doğrudan ele alır.
 
@@ -141,8 +141,8 @@ Mümkün olan yerlerde "daha fazla detay için X.md dosyasını okuyun" gibi yö
 
 ### [MANIFESTO.md](./MANIFESTO.md)
 
-Manifesto, bir kişinin, grubun veya hareketin inançlarını, amaçlarını ve ilkelerini kamuoyuna açıkça ilan ettiği yazılı bildirge demektir.
-Kelime İtalyanca manifesto'dan gelir, o da Latince manifestus (açık, aşikar) kökünden türemiştir.
+Manifesto; bir kişinin, grubun veya hareketin inançlarını, amaçlarını ve ilkelerini kamuoyuna açıkça ilan ettiği yazılı bildirgedir.
+Kelime İtalyanca "manifesto"dan gelir, o da Latince "manifestus" (açık, aşikar) kökünden türemiştir.
 
 Projelerin içerikleri kadar arkasındaki fikirler, idealler de önemlidir.
 Bu dosya, bu proje üstünde çalışan kişilerin idealleri ve motivasyonlarını, manifestolarını gösterir.
@@ -170,7 +170,7 @@ Bu dosya geçmişi tutmaz, sadece geleceğe bakar.
 Çoğu zaman "hükümet" anlamına gelen "government" kelimesi ile karıştırılır, ama burada "yönetim işleri" olarak kullanılır.
 
 Bu dosya, projede yönetimsel yapının nasıl olduğunu anlatır.
-Kim ne yapar, süreçler nasıl işler; işleyişi öğrenmek isteyenlerin bakacağı yerdir.
+Kim ne yapar, süreçler nasıl işler; öğrenmek isteyenlerin bakacağı yerdir.
 
 **Bu dosyada şunlar yer alabilir:**
 
@@ -204,7 +204,7 @@ Kim ne yapar, süreçler nasıl işler; işleyişi öğrenmek isteyenlerin bakac
 Davranış kuralları veya sözleşmesi anlamına gelir.
 
 Bu dosya projenin sosyal kurallarını içerir.
-Cinsel içerikli ögelerin veya zorbalığın yasaklanması gibi konulara kullanılır.
+Cinsel içerikli ögelerin veya zorbalığın yasaklanması gibi konularda kullanılır.
 Yani davranış standartlarını belirler.
 
 Bu projede çalışan kişilerin bazı etik konularda ortak bir yolu kabul etmesi için vardır.
@@ -223,7 +223,7 @@ Hem dışarıdan katılanlara hem de içerideki üyelere yönelik yazılır.
 
 ### [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-İsmi, "katkıda bulunmak" olmak anlamına gelir.
+İsmi, "katkıda bulunmak" anlamına gelir.
 Projeye katkıda bulunmak isteyen kişilere bir rehber olması için yazılır.
 
 Çoğu zaman ana yazım nedeni, projede çalışmak isteyen insanlara detayları sunmaktır.
@@ -248,9 +248,9 @@ Bu dosya minimum uyumluluk gereksinimlerini belirtir.
 Uyumluluk seviyeleri belirleyip bu seviyeler üstünden yargılara varılabilmesini sağlayabilir.
 
 Çoğu zaman örnekler veya direkt "bu uyumlu" gibi listeler bulundurur.
-Özellikle protokollerde "İmplementations" yani "Uygulamalar" olarak görülür.
-Bu listeler hem bu projeyi, hemde uyumlu olan projeyi öne çıkarmak için kullanılabilir.
-Topluluğun büyümesi için güzel bir şeydir.
+Özellikle protokollerde "Implementations" yani "Uygulamalar" olarak görülür.
+Bu listeler hem bu projeyi, hem de uyumlu olan projeyi öne çıkarmak için kullanılabilir.
+Topluluğun büyümesi için önemli bir şeydir.
 
 **Şu dosyaları kapsar:**
 
@@ -262,15 +262,15 @@ Topluluğun büyümesi için güzel bir şeydir.
 Projenin kullanım hakları ve lisans koşullarını içerir.
 Projenin nasıl kullanılabileceğini, dağıtılabileceğini ve türetilebileceğini hukuki çerçevede tanımlar.
 
-Bu dosya `.md` uzantısına sahip değildir, ve olmamalıdır.
+Bu dosya `.md` uzantısına sahip değildir ve olmamalıdır.
 Otomatik sistemler çoğu zaman düz "LICENSE" ismini arar, bu uyumluğun kaybı lisans ihlallerine neden olabilir.
 
 Lisans projenin [manifestosu](#manifestomd)nun bir parçasıdır.
-Proje ne kadar kullanıma açık olursa, o kadar yüksek potansiyele sahiptir.
-Projeleri kısıtlamak teoride artılara sahip olsa da, pratikte bir o kadar da çok şeyi kötü etkiler.
-Birebir tekrardan dağıtmanın yani başka bir değişle redistribute etmenin yasak olduğu lisansları öneririz.
+Proje ne kadar kullanıma açık olursa o kadar yüksek potansiyele sahiptir.
+Projeleri kısıtlamak teoride artılara sahip olsa da pratikte bir o kadar çok şeyi de kötü etkiler.
+Bire bir tekrardan dağıtmanın yani başka bir deyişle redistribute etmenin yasak olduğu lisansları öneririz.
 
-*Her ne kadar önermesekte, lisansları bir kurum yönetmediği için istediğiniz lisansı kendiniz yazabilirsiniz.*
+*Her ne kadar önermesek de lisansları bir kurum yönetmediği için istediğiniz lisansı kendiniz yazabilirsiniz.*
 *Ama bu çoğu zaman kötü bir fikirdir, yasal bilgi eksikliği ve bilinmeyen bir lisansa karşı toplulukta oluşabilecek negatif hissiyatlar örnek sonuçlardır.*
 
 https://spdx.org/licenses/, https://license.md/ veya https://choosealicense.com/ adreslerini kullanarak lisansları inceleyebilirsiniz.
@@ -288,7 +288,7 @@ Hukuki sorumluluk reddi beyanları, resmi bildirimler ve dış kaynak atıfları
 
 ### [ARCHITECTURE.md](./ARCHITECTURE.md)
 
-Sistem yapısı ve tasarım genel görünümü; tasarım kararları ve gerekçeleri; bileşenler arası ilişkiler; süreçler, iş akışları ve yaşam döngüleri; veri şemaları, arayüz tanımları ve entegrasyon detayları. Projeyi teknik olarak kavramak isteyen herkesin başvurduğu ana teknik belgedir.
+Sistem yapısı ve tasarım genel görünümü, tasarım kararları ve gerekçeleri, bileşenler arası ilişkiler, süreçler, iş akışları ve yaşam döngüleri, veri şemaları, arayüz tanımları ve entegrasyon detayları. Projeyi teknik olarak kavramak isteyen herkesin başvurduğu ana teknik belgedir.
 
 **Şu dosyaları kapsar:**
 
@@ -312,7 +312,7 @@ Sistem yapısı ve tasarım genel görünümü; tasarım kararları ve gerekçel
 ### [PERFORMANCE.md](./PERFORMANCE.md)
 
 Projenin performans kriterleri, ölçüm yöntemleri, hedef değerler ve kıyaslama sonuçlarını belgeler.
-Her projenin bir performans beklentisi vardır; bu dosya o beklentileri ve nasıl ölçüldüğünü ortaya koyar.
+Her projenin bir performans beklentisi vardır, bu dosya o beklentileri ve nasıl ölçüldüğünü ortaya koyar.
 
 **Şu dosyaları kapsar:**
 
@@ -320,7 +320,7 @@ Her projenin bir performans beklentisi vardır; bu dosya o beklentileri ve nası
 
 ### [SECURITY.md](./SECURITY.md)
 
-Projenin güvenlik politikaları ve güvenlik açığı bildirimi; tehdit modeli ve saldırı yüzeyi analizi; erişim kontrolü ve rol tabanlı yetkilendirme kuralları; kimlik doğrulama ve şifreleme standartları; denetim izi ve kayıt politikası; veri işleme ve saklama prosedürleri.
+Projenin güvenlik politikaları ve güvenlik açığı bildirimi, tehdit modeli ve saldırı yüzeyi analizi, erişim kontrolü ve rol tabanlı yetkilendirme kuralları, kimlik doğrulama ve şifreleme standartları, denetim izi ve kayıt politikası, veri işleme ve saklama prosedürleri.
 
 **Şu dosyaları kapsar:**
 
@@ -336,7 +336,7 @@ Projenin güvenlik politikaları ve güvenlik açığı bildirimi; tehdit modeli
 
 Yapay zeka kodlama ajanlarına ve yazılım araçlarına proje hakkında yönlendirici bağlam sağlar.
 Hangi dosyalara dokunulacağını, hangi komutların çalıştırılacağını, projeye özgü kuralları ve genel proje bağlamını tanımlar.
-`robots.txt`'nin web tarayıcıları için ne ise bu dosya da AI ajanları için odur. Amp, Codex, Cursor, Devin, Gemini CLI, GitHub Copilot ve VS Code tarafından desteklenen açık bir standarttır. Web ortamında yayımlanan projeler için Git reposunun değil web sunucusunun kök dizinine ait olan `llms.txt` standardı da değerlendirilebilir.
+`robots.txt` web tarayıcıları için ne ise bu dosya da AI ajanları için odur. Amp, Codex, Cursor, Devin, Gemini CLI, GitHub Copilot ve VS Code tarafından desteklenen açık bir standarttır. Web ortamında yayımlanan projeler için Git reposunun değil web sunucusunun kök dizinine ait olan `llms.txt` standardı da değerlendirilebilir.
 
 **Şu dosyaları kapsar:**
 
