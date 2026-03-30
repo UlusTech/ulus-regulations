@@ -11,4 +11,3 @@ Yönetmelikleri Ulus markasını yöneten Üst Yönetim Kurulu düzenler ve bu y
 Bundan faydalanan Ulus Tech; bu proje ile yönetmelikleri, geliştiricilerin gereksinimleri üzerine erişim kolaylığı sağlamak amacıyla halka açık olarak GitHub üzerinden sunar. Yönetmelikler aslen Ulus'un websitesi üzerinden bir arayüz ile sunulacak ve websitesi üzerinden bu projenin bire bir aynısı indirilebilecek.
 
 Bu kaynak yalnızca bir birimin projesidir. Verilerin kesinliği ve doğruluğu adına Ulus'un websitesi kullanılmalıdır.
-
