@@ -1,0 +1,2 @@
+# We might need this in the future.
+# We will add each projects regulation to this git repo. But we cant store all of their source here. We might need to use git modules so we can hook other repos into this repo.
