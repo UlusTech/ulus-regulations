@@ -277,14 +277,23 @@ https://spdx.org/licenses/, https://license.md/ veya https://choosealicense.com/
 
 ### [LEGAL.md](./LEGAL.md)
 
-Hukuki sorumluluk reddi beyanları, resmi bildirimler ve dış kaynak atıflarını içerir.
-[LICENSE](#license)'dan farklı olarak kullanım hakları değil, sorumluluk sınırları ve yasal uyarıları kapsar.
+İsmi, "hukuki" veya "yasal" anlamına gelir.
+
+Projenin hukuki bilgilerini içerir.
+
+**Bu dosyada şunlar yer alır:**
+
+- Sorumluluk sınırları: projenin kullanımından doğabilecek zararlara karşı ne ölçüde sorumlu tutulabileceği,
+- Resmi bildirimler: telif hakkı, marka kullanımı veya yasal zorunluluklar,
+- Üçüncü taraf atıfları: projede kullanılan dış kaynakların hukuki gereklilikleri
+
+[LICENSE](#license)'dan farklı olarak kullanım haklarını değil, yasal uyarıları ve sorumluluk redlerini kapsar.
 
 **Şu dosyaları kapsar:**
 
-- `DISCLAIMER.md`: Uyarılar belirgin bir şekilde bu dosya içerisine koyulabilir.
-- `NOTICE.md`: Mevcut dosya bildirilerin burada aranabileceği, dikkat çekici bir dosyadır.
-- `REFERENCES.md`
+- `DISCLAIMER.md`: Uyarılar ve sorumluluk reddi beyanları bu dosyada bulunur.
+- `NOTICE.md`: Resmi bildirimler bu dosyada yer alır.
+- `REFERENCES.md`: Projenin dayandığı dış kaynaklar, atıflar ve bağımlılıklar bu dosyada listelenebilir.
 
 ### [ARCHITECTURE.md](./ARCHITECTURE.md)
 
