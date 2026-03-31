@@ -21,7 +21,7 @@ Böylece takımlaşma ve görev dağılımı gibi çalışma metodları uygulana
 Ulus'un versiyon kontrol sistemi seçimi [Git](https://en.wikipedia.org/wiki/Git)'tir.
 Git ana olarak yazılım geliştirme için tasarlanmış olsa da bir versiyon kontrol sistemi olarak ciddi kabul görmüştür ve kendini kanıtlamıştır.
 İnsan dili odaklı (dökümantasyon vb.) çalışmalarda çıkarabileceği sorunların çözüldüğü başka bir alternatif bulunmamaktadır.
-Her şeye rağmen Git, güçlü bir versiyon kontrol sistemidir ve Ulus dijital ortamda tuttuğu tüm metin tabanlı projelerinde Git kullanmalıdır.
+Her şeye rağmen Git, güçlü bir versiyon kontrol sistemidir ve Ulus, dijital ortamda tuttuğu tüm metin tabanlı projelerinde Git kullanmalıdır.
 
 ## Bilginin Biçimi
 
