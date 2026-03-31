@@ -27,7 +27,7 @@ Her şeye rağmen Git, güçlü bir versiyon kontrol sistemidir ve Ulus, dijital
 
 Projelerin tüm bilgileri "özel bir program kullanmadan" insanların anlayabileceği bir formatta olmalıdır.
 Yani veri, [versiyon kontrol sistemi](#versiyonlandırma-sistemleri)ne bir versiyon olarak kayıt edilirken PDF gibi tiplerde olamaz.
-PDF, JPG, PNG, MP3, MP4 ve OBJ gibi dosya tipleri makine hedefli bir tiptedir ve saf hali ile insanlar tarafından okunamaz.
+PDF, JPG, PNG, MP3, MP4 ve OBJ gibi dosya tipleri makine hedefli bir tiptedir ve saf (salt) hali ile insanlar tarafından okunamaz.
 
 Bir dosyanın okunması için özel bir programın kullanılmasının zorunlu olması erişimi katmanlandırır.
 Bu durum [şeffaflık](./şeffaflık-ve-berraklık.md) ideallerimize uygun değil.
