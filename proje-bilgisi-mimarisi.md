@@ -91,7 +91,7 @@ Dosya mimarisi şu şekildedir:
 Okuyan veya düzenleyen kişinin beklentisinin yanı sıra denetim ve takip için bu yol kullanılır.
 Bir kök bilgi dosyası olarak atıf edilen her bir dosya bu yönetmelik tarafından kapsanır.
 
-Proje bilgisi mimarisi için bu yönetmeliğin kullanıldığı belirtilmezse, veya alakadar kök bilgi dosyası README tarafından atıf edilmiyorsa bu yönetmelik geçersizdir.
+Proje bilgisi mimarisi için bu yönetmeliğin kullanıldığı belirtilmezse veya alakadar kök bilgi dosyası README tarafından atıf edilmiyorsa bu yönetmelik geçersizdir.
 
 Bu yönetmeliğin kullanıldığını belirtmek için şu kullanılabilir:
 
