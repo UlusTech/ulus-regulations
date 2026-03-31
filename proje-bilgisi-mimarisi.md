@@ -120,7 +120,7 @@ Her versiyon için ne değişti, ne eklendi, ne kaldırıldı gibi bilgileri tar
 
 ### [HISTORY.md](./HISTORY.md)
 
-İsmi "Tarih" veya "Geçmiş" anlamına gelir.
+İsmi "tarih" veya "geçmiş" anlamına gelir.
 
 Projede önemli kararlar verildiğinde, veya önemli bir sürüme/versiyona varıldığında bu dosya dahilinde kayıt alınır.
 Anlatım çoğu zaman [CHANGELOG.md](#changelogmd)'ye atıfta bulunarak yapılır.
