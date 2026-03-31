@@ -273,7 +273,7 @@ Bire bir tekrardan dağıtmanın yani başka bir deyişle redistribute etmenin y
 *Her ne kadar önermesek de lisansları bir kurum yönetmediği için istediğiniz lisansı kendiniz yazabilirsiniz.*
 *Ama bu çoğu zaman kötü bir fikirdir, yasal bilgi eksikliği ve bilinmeyen bir lisansa karşı toplulukta oluşabilecek negatif hissiyatlar örnek sonuçlardır.*
 
-https://spdx.org/licenses/, https://license.md/ veya https://choosealicense.com/ adreslerini kullanarak lisansları inceleyebilirsiniz.
+<https://spdx.org/licenses/>, <https://license.md/> veya <https://choosealicense.com/> adreslerini kullanarak lisansları inceleyebilirsiniz.
 
 ### [LEGAL.md](./LEGAL.md)
 
@@ -353,4 +353,3 @@ Hangi dosyalara dokunulacağını, hangi komutların çalıştırılacağını, 
 - `CLAUDE.md`
 - `GEMINI.md`
 - `.cursorrules`
-
