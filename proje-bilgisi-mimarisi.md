@@ -30,7 +30,7 @@ Yani veri, [versiyon kontrol sistemi](#versiyonlandırma-sistemleri)ne bir versi
 PDF, JPG, PNG, MP3, MP4 ve OBJ gibi dosya tipleri makine hedefli bir tiptedir ve saf (salt) hali ile insanlar tarafından okunamaz.
 
 Bir dosyanın okunması için özel bir programın kullanılmasının zorunlu olması erişimi katmanlandırır.
-Bu durum [şeffaflık](./şeffaflık-ve-berraklık.md) ideallerimize uygun değil.
+Bu durum [şeffaflık](./şeffaflık-ve-berraklık.md)<!-- Şeffaflık saydamlık ile değiştirilmeli mi? Berraklık kavramı kalmalı mı yoksa Türkçe kökenli bir alternatif mi kullanılmalı? --> ideallerimize uygun değil.
 
 Ulus, tüm metin işleri için [Markdown](https://en.wikipedia.org/wiki/Markdown) kullanır.
 Bu durum [Yönetmelik Yazım Yönetmeliği](./yönetmelik-yazım-yönetmeliği.md)'nde belirtişmiştir.
