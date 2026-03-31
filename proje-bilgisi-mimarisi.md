@@ -49,7 +49,7 @@ Bu nedenle DESIGN.md kullanmak yerine onu kapsayacak biçimde ARCHITECTURE.md ku
 Böylece az dosya ile çok iş başarabiliriz.
 Az olan dosya sayısı düşünme ve planlama miktarını da azaltır, bu da hız ve kolaylık demektir.
 
-Kapsayıcı çatı dosyalar konsepti kapsanan dosyaların kullanımını yasaklamaz.
+Kapsayıcı yani çatı dosyalar konsepti kapsanan dosyaların kullanımını yasaklamaz.
 İhtiyaç durumunda kapsayıcı dosyadan ayrılabilecek dosyalar kapsayıcı dosya ile birlikte listelenir.
 Yine de ayırmamayı öneriyoruz; kapsanan dosyaların açıklamaları bulunmuyor, bu durum kafa karışıklığına neden olabilir.
 
