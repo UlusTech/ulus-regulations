@@ -115,7 +115,7 @@ Dosyanın belli bir mimarisi olmak zorunda değildir, anlatıcı ne anlatmak ist
 
 İsmi "change" yani "değişim" ve "log" yani "kayıt" kelimelerinin birleşimidir ve "seyir defteri" gibi bir anlam taşır.
 
-Versiyon bazlı değişikliklerin kısa ve yapılandırılmış kayıt defteri.
+Versiyon bazlı değişikliklerin kısa ve yapılandırılmış kayıt defteridir.
 Her versiyon için ne değişti, ne eklendi, ne kaldırıldı gibi bilgileri tarihsel sırayla tutar.
 
 ### [HISTORY.md](./HISTORY.md)
