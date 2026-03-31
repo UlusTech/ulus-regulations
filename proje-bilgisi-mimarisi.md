@@ -318,7 +318,17 @@ Her ne kadar projeden projeye değişecek olsa da, her proje her zaman bir mimar
 Bu mimari, projenin felsefesi ([manifestosu](#manifestomd)) ile bağlantılı sayılabilir.
 Örneğin gizlilik ile alakalı idealleri olan bir proje, mimarisinde uçtan uca şifreleme bulundurur.
 
-Sistem yapısı ve tasarım genel görünümü, tasarım kararları ve gerekçeleri, bileşenler arası ilişkiler, süreçler, iş akışları ve yaşam döngüleri, veri şemaları, arayüz tanımları ve entegrasyon detayları. Projeyi teknik olarak kavramak isteyen herkesin başvurduğu ana teknik belgedir.
+**Bu dosyada şu konulardan bahsedilebilebilir:**
+
+- **Sistem tasarım, kararları ve gerekçeleri**: Projenin işleyişi, ve o işleyişin nedenler. *Örnek: "X işlemini yapmak için Y kullaılmalıdır ama Y'nin Z durumunda Y yerine H kullanılır. Çünkü H Y'nin aksine X'te F işlemini görmeden yapılabilir."*
+- **Bileşenler arası ilişkiler**: "Y, H'nin daha az karmaşık halidir."
+- **İş akışları (workflow) ve yaşam döngüleri (lifecycle)**: *"X işlemi H ile yapılır. X işleminden sonra Y yok olur."*
+- **Veri şemaları (data structures/schemas/types)**: Genel bir örnek olarak "H, adres ve saat gibi bilgileri barındırır" verilebilir. Yazılımsal çalışmalarda veri tipleri, protobuf veya JSON gibi sistemler tanımlanmalıdır.
+- İstatisliklerin incelenmesi ve açıklamaları:
+- Arayüz tanımları (örn: application interface) ve entegrasyon detayları (örn: pluginler veya modlar, webhook bezneri yapılar):
+- Konfigürebilite ve konfigürebilasyon sistemi:
+- Geliştirme veya kullanım için gereksinimler ve nedenleri:
+- Kullanım veya test için çalıştırma/kullanma süreçlerinin açıklanması:
 
 **Şu dosyaları kapsar:**
 
