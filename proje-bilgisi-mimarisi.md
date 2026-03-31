@@ -8,7 +8,8 @@ Ulus'un tüm projelerinde bu yönetmeliğin belirlediği standartlar uygulanır.
 
 ## [Versiyonlandırma Sistemleri](https://en.wikipedia.org/wiki/Version_control)
 
-Projeler zaman içerisinde değişebilir. Bu değişim bir versiyon kontrol sistemi tarafından takip altına alınmalı.
+Projeler zaman içerisinde değişebilir.
+Bu değişim bir versiyon kontrol sistemi tarafından takip altına alınmalı.
 
 Projelerin başlangıçlarından itibaren kayıt altına alınması bir seyir defteri mantığı görür.
 Bu mantık sayesinde eskiden nelerin yapıldığı, hangi konularda hangi kararların verildiği gözlemlenebilir olur.
@@ -38,7 +39,8 @@ Sırası ile [CommonMark](https://commonmark.org/) ve [GFM](https://en.wikipedia
 ## Kök Markdown Dosyaları
 
 Projenin sunulduğu her ortamda gösterilmesi zorunlu olan kök (root) Markdown (.md) dosyaları vardır.
-Bu dosyalar alakadar bilginin olası beklentisi nedeniyle yazılır. Yani bir dosya bağlam gereği beklenmiyorsa yazılmasına gerek yoktur.
+Bu dosyalar alakadar bilginin olası beklentisi nedeniyle yazılır.
+Yani bir dosya bağlam gereği beklenmiyorsa yazılmasına gerek yoktur.
 
 Burada standartize edilmiş bazı dosyalar, başka dosyalar yerine tercih edilmişir.
 Bu nedenle DESIGN.md kullanmak yerine ARCHITECTURE.md kullanırız.
