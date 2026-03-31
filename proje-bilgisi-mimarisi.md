@@ -315,6 +315,8 @@ Burada mimari, işleyiş gibi şeylere karşılık gelir.
 Bu dosyanın teknik olmayan versiyonu [SUMMARY.md](#summarymd) olarak yorumlanabilir.
 
 Her ne kadar projeden projeye değişecek olsa da, her proje her zaman bir mimariye sahiptir.
+Bu mimari, projenin felsefesi ([manifestosu](#manifestomd)) ile bağlantılı sayılabilir.
+Örneğin gizlilik ile alakalı idealleri olan bir proje, mimarisinde uçtan uca şifreleme bulundurur.
 
 Sistem yapısı ve tasarım genel görünümü, tasarım kararları ve gerekçeleri, bileşenler arası ilişkiler, süreçler, iş akışları ve yaşam döngüleri, veri şemaları, arayüz tanımları ve entegrasyon detayları. Projeyi teknik olarak kavramak isteyen herkesin başvurduğu ana teknik belgedir.
 
