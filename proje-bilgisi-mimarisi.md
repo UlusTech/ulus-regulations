@@ -44,8 +44,8 @@ Bu dosyalar alakadar bilginin olası beklentisi nedeniyle yazılır.
 Yani bir dosya projedeki bağlam gereği beklenmiyorsa yani ihtiyaç yoksa yazılmasına gerek yoktur.
 Örneğin bir Yasa tasarısı projesinden performans bilgisi beklenmez, bu nedenle "PERFORMANCE.md"nin yazılmasına gerek yoktur.
 
-Burada standartize edilmiş bazı dosyalar, başka dosyalar yerine tercih edilmişir.
-Bu nedenle DESIGN.md kullanmak yerine ARCHITECTURE.md kullanırız.
+Burada standartize edilmiş bazı dosyalar, başka dosyalar yerine tercih edilmiştir.
+Bu nedenle DESIGN.md kullanmak yerine onu kapsayacak biçimde ARCHITECTURE.md kullanırız.
 Böylece az dosya ile çok iş başarabiliriz.
 Az olan dosya sayısı düşünme ve planlama miktarını da azaltır, bu da hız ve kolaylık demektir.
 
