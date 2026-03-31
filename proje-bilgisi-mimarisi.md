@@ -93,7 +93,7 @@ Bir kök bilgi dosyası olarak atıf edilen her bir dosya bu yönetmelik tarafı
 
 Proje bilgisi mimarisi için bu yönetmeliğin kullanıldığı belirtilmezse veya alakadar kök bilgi dosyası README tarafından atıf edilmiyorsa bu yönetmelik geçersizdir.
 
-Bu yönetmeliğin kullanıldığını belirtmek için şu kullanılabilir:
+Bu yönetmeliğin kullanıldığını belirtmek için örnekteki gibi bir yazı eklenmelidir:
 
 ```markdown
 Bu proje [Ulus](https://ulusgroup.org)'un [Proje Bilgi Mimarisi](https://github.com/UlusTech/ulus-regulations/blob/main/proje-bilgisi-mimarisi.md) yönetmeliğine göre yazılmıştır.
