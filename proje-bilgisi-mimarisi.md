@@ -125,7 +125,6 @@ Her versiyon için ne değişti, ne eklendi, ne kaldırıldı gibi bilgileri tar
 Projede önemli kararlar verildiğinde veya önemli bir sürüme/versiyona varıldığında bu dosya dahilinde kayıt alınır.
 Anlatım çoğu zaman [CHANGELOG.md](#changelogmd)'ye atıfta bulunarak yapılır.
 
-[CHANGELOG.md](#changelogmd)'nin aksine her bir versiyonda yazılmaz.
 [CHANGELOG.md](#changelogmd)'nin aksine her bir versiyonda güncellenmez.
 Sadece önemli veya büyük olan gelişmeler yazılır.
 
