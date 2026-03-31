@@ -65,6 +65,8 @@ Rollerin detaylarını öğrenmek için [ROLES.md](./ROLES.md) dosyasını incel
 ```
 
 Tüm kök dosyaları giriş (landing yani README) dosyasında konumları ile belirtilmelidir.
+Eğer bir kök dosya [README.md](#readmemd) ile başlayan bir atıf ağacına dahil değilse o dosya bulunamazdır yani geçersizdir ve bu yönetmelikten muaftır.
+Bu ideal bir durum değildir, tüm dosyalar atıf edilerek var olur.
 
 Aşağıda, projelerin kök dizininde kullanılabilecek tüm tanımlı bilgi dosyaları listelenmektedir.
 *Dosyaların isimlerinin üstüne tıklayarak örnek dosyalara gidilebilir.*
