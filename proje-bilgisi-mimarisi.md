@@ -51,7 +51,18 @@ Az olan dosya sayısı düşünme ve planlama miktarını da azaltır, bu da hı
 
 Kapsayıcı yani çatı dosyalar konsepti kapsanan dosyaların kullanımını yasaklamaz.
 İhtiyaç durumunda kapsayıcı dosyadan ayrılabilecek dosyalar kapsayıcı dosya ile birlikte listelenir.
-Yine de ayırmamayı öneriyoruz; kapsanan dosyaların açıklamaları bulunmuyor, bu durum kafa karışıklığına neden olabilir.
+Yine de dosyaları ayırmamayı öneriyoruz çünkü kapsanan dosyaların aşağıdaki kısımda detaylı açıklamaları bulunmuyor, bu durum kafa karışıklığına neden olabilir.
+Eğer ayırırsanız dosyanın geçerli veya bulunabilir olması için normalde o dosyayı kapsayan dosyadan yeni dosyaya atıf edin.
+
+Örneğin [GOVERNANCE.md](#governancemd) dosyasından ROLES.md dosyasını ayırırsanız, [GOVERNANCE.md](#governancemd) dosyasında şöyle bir atıfta bulunun:
+
+```markdown
+#Roller
+
+Organizasyonumuzda kolon biçim bir hiyerarşi bulunur. 
+
+Rollerin detaylarını öğrenmek için [ROLES.md](./ROLES.md) dosyasını inceleyin.
+```
 
 Tüm kök dosyaları giriş (landing yani README) dosyasında konumları ile belirtilmelidir.
 
