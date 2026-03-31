@@ -88,7 +88,8 @@ Dosya mimarisi şu şekildedir:
 
 **Bu yönetmeliği uygulayan tüm projeler bu dosyanın dosya başlığı altında internet adresi ile birlikte bu yönetmeliği kullandığını belirtmelidir.**
 
-Okuyan veya düzenleyen kişinin beklentisinin yanı sıra denetim ve takip için bu yol kullanılır. Bir kök bilgi dosyası olarak atıf edilen her bir dosya bu yönetmelik tarafından kapsanır.
+Okuyan veya düzenleyen kişinin beklentisinin yanı sıra denetim ve takip için bu yol kullanılır.
+Bir kök bilgi dosyası olarak atıf edilen her bir dosya bu yönetmelik tarafından kapsanır.
 
 Proje bilgisi mimarisi için bu yönetmeliğin kullanıldığı belirtilmezse, veya alakadar kök bilgi dosyası README tarafından atıf edilmiyorsa bu yönetmelik geçersizdir.
 
