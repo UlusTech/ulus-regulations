@@ -142,7 +142,7 @@ Projenin anlam ve bağlamının takip edilebilmesi için kullanılır.
 İsmi, "sözlük" anlamına gelir.
 Projeye özgü terimlerin, kısaltmaların ve kavramların tanımlarını içerir.
 
-Farklı geçmişlerden gelen okuyucuların ortak bir dil kurabilmesi için yazılır.
+Farklı geçmişlerden (uzmanlık alanlarından) gelen okuyucuların ortak bir dil kurabilmesi için yazılır.
 
 Her bir kelime bir başlık olarak yazılmalıdır.
 Bu, projeye özel terminolojilerin başka dosyalardan atıf edilebilmesini sağlar.
