@@ -113,7 +113,7 @@ Dosyanın belli bir mimarisi olmak zorunda değildir, anlatıcı ne anlatmak ist
 
 ### [CHANGELOG.md](./CHANGELOG.md)
 
-İsmi "change" yani "değişim" ve "log" yani "kayıt" kelimelerinin birleşimidir ve "Seyir Defteri" gibi bir anlam taşır.
+İsmi "change" yani "değişim" ve "log" yani "kayıt" kelimelerinin birleşimidir ve "seyir defteri" gibi bir anlam taşır.
 
 Versiyon bazlı değişikliklerin kısa ve yapılandırılmış kayıt defteri.
 Her versiyon için ne değişti, ne eklendi, ne kaldırıldı gibi bilgileri tarihsel sırayla tutar.
