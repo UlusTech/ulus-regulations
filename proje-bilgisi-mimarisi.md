@@ -74,7 +74,7 @@ Aşağıda, projelerin kök dizininde kullanılabilecek tüm tanımlı bilgi dos
 ### [README.md](./README.md)
 
 İsmi İngilizce "read" yani "oku" ve "me" yani "beni" kelimelerinin birleşimidir.
-Projeye bakan kişinin dikkatini çekmek, burdan başla demek için kullanılır.
+Projeye bakan kişinin dikkatini çekmek, buradan başla demek için kullanılır.
 Yani projenin giriş noktası, ilk izlenim dosyasıdır.
 
 Dosya mimarisi şu şekildedir:
