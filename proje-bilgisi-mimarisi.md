@@ -194,7 +194,7 @@ Bu dosya geçmişi tutmaz, sadece geleceğe bakar.
 Çoğu zaman "hükümet" anlamına gelen "government" kelimesi ile karıştırılır ama burada "yönetim işleri" ve "yönetim sistemi" olarak kullanılır.
 
 Bu dosya, projede yönetimsel yapının nasıl olduğunu anlatır.
-Kim ne yapar, süreçler nasıl işler; öğrenmek isteyenlerin bakacağı yerdir.
+Kim ne yapar, süreçler nasıl işler diye öğrenmek isteyenlerin bakacağı yerdir.
 
 **Bu dosyada şunlar yer alabilir:**
 
