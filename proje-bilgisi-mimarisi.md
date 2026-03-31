@@ -75,6 +75,12 @@ Okuyan veya düzenleyen kişinin beklentisinin yanı sıra denetim ve takip içi
 
 Proje bilgisi mimarisi için bu yönetmeliğin kullanıldığı belirtilmezse, veya alakadar kök bilgi dosyası README tarafından atıf edilmiyorsa bu yönetmelik geçersizdir.
 
+Bu yönetmeliğin kullanıldığını belirtmek için şu kullanılabilir:
+
+```markdown
+Bu proje [Ulus](https://ulusgroup.org)'un [Proje Bilgi Mimarisi](https://github.com/UlusTech/ulus-regulations/blob/main/proje-bilgisi-mimarisi.md) yönetmeliğine göre yazılmıştır.
+```
+
 ### [SUMMARY.md](./SUMMARY.md)
 
 İsmi, "özet" anlamına gelir.
@@ -296,6 +302,17 @@ Projenin hukuki bilgilerini içerir.
 - `REFERENCES.md`: Projenin dayandığı dış kaynaklar, atıflar ve bağımlılıklar bu dosyada listelenebilir.
 
 ### [ARCHITECTURE.md](./ARCHITECTURE.md)
+
+İsmi, "mimari" veya "yapı" anlamına gelir.
+Projenin mimari yapısının açıklamasını içerir.
+Bu dosyayı okuyan bir kişi, projenin tüm mimarisini anlayabilmelidir.
+
+Bu dosya teknik terimler içerir, terimleri "x nedeniyle y'yi kullanıyoruz" şeklinde açıklar.
+İçerik, projenin mimarisini açıklamalıdır.
+Burada mimari, işleyiş gibi şeylere karşılık gelir.
+Bu dosyanın teknik olmayan versiyonu [SUMMARY.md](#summarymd) olarak yorumlanabilir.
+
+Her ne kadar projeden projeye değişecek olsa da, her proje her zaman bir mimariye sahiptir.
 
 Sistem yapısı ve tasarım genel görünümü, tasarım kararları ve gerekçeleri, bileşenler arası ilişkiler, süreçler, iş akışları ve yaşam döngüleri, veri şemaları, arayüz tanımları ve entegrasyon detayları. Projeyi teknik olarak kavramak isteyen herkesin başvurduğu ana teknik belgedir.
 
