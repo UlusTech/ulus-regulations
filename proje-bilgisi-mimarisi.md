@@ -213,7 +213,7 @@ Kim ne yapar, süreçler nasıl işler diye öğrenmek isteyenlerin bakacağı y
 - *Ne:*
   - `POLICY.md`: Proje politikası bu dosyada belirlenir.
 - *Süreç:*
-  - `INCIDENT.md`: Olay müdahalesi ve yükseltme yolları bu dosyada açıklanır.
+  - `INCIDENT.md`: Olay müdahalesi ve değerlendirme yolları bu dosyada açıklanır.
   - `REVIEW.md`: Gözden geçirme ve denetim süreçleri bu dosyada yer alır.
   - `APPROVAL.md`: Onay mekanizmaları bu dosyada tanımlanır.
   - `ROLLBACK.md`: Geri alma prosedürleri bu dosyada açıklanır.
