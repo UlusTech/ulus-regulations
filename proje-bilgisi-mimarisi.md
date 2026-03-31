@@ -180,7 +180,7 @@ Bu dosya, bu proje üstünde çalışan kişilerin idealleri ve motivasyonların
 
 ### [ROADMAP.md](./ROADMAP.md)
 
-İsminin anlamı; "road" yani "yol", "map" yani "harita" anlamına gelen kelimelerin birleşimi olan "Yol haritası"'dır.
+İsminin anlamı; "road" yani "yol", "map" yani "harita" anlamına gelen kelimelerin birleşimi olan "yol haritası"'dır.
 
 Projenin önündeki hedeflenen şeyler bu dosyada yazılır.
 Bir özelliğin planlanması bu dosyaya yazılması demektir.
