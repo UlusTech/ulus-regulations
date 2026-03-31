@@ -16,6 +16,7 @@ Bu mantık sayesinde eskiden nelerin yapıldığı, hangi konularda hangi kararl
 
 Ayrıca versiyon kontrol sistemleri çoğu zaman "branching" yani dallandırma konseptini destekler.
 Bu da aynı anda projenin farklı versiyonları ve özellikleri üstünde ciddi kolektif çalışma potansiyeli demektir.
+Böylece takımlaşma ve görev dağılımı gibi çalışma metodları uygulanabilir, gruplar belirli özelliklere odaklanabilir.
 
 Ulus'un versiyon kontrol sistemi seçimi [Git](https://en.wikipedia.org/wiki/Git)'tir.
 Git ana olarak yazılım geliştirme için tasarlanmış olsa da bir versiyon kontrol sistemi olarak ciddi kabul görmüştür ve kendini kanıtlamıştır.
