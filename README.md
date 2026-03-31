@@ -1,7 +1,6 @@
 # Ulus Yönetmelikleri
 
-[![Language: TR](https://img.shields.io/badge/Language-TR-red.svg)](./README.md)
-[![Language: EN](https://img.shields.io/badge/Language-EN-blue.svg)](./README.en.md)
+[Language: EN](./README.en.md)
 
 Ulus, birimlerden oluşur ve yönetmelikler ile çalışır. Yönetmelikler; Ulus'un iş ahlakı, projelerin işleyişi gibi konuları standardize ettiği dosyalardır. Eğer Ulus ile ilgileniyorsanız, bunlar okumanız gereken ilk şeyler.
 

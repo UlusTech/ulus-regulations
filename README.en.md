@@ -1,7 +1,6 @@
 # Ulus Regulations
 
-[![Language: TR](https://img.shields.io/badge/Language-TR-red.svg)](./README.md)
-[![Language: EN](https://img.shields.io/badge/Language-EN-blue.svg)](./README.en.md)
+[Language: TR](./README.md)
 
 Ulus consists of units and works via regulations. Regulations are files that standardise topics like work ethics of Ulus, operation of projects. If you are interested in Ulus, this is the place you must come first.
 
