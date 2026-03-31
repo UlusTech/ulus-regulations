@@ -9,7 +9,7 @@ Ulus'un tüm projelerinde bu yönetmeliğin belirlediği standartlar uygulanır.
 ## [Versiyonlandırma Sistemleri](https://en.wikipedia.org/wiki/Version_control)
 
 Projeler zaman içerisinde değişebilir.
-Bu değişim bir versiyon kontrol sistemi tarafından takip altına alınmalı.
+Bu değişim bir versiyon kontrol sistemi tarafından takip altına alınmalıdır.
 
 Projelerin başlangıçlarından itibaren kayıt altına alınması bir seyir defteri mantığı görür.
 Bu mantık sayesinde eskiden nelerin yapıldığı, hangi konularda hangi kararların verildiği gözlemlenebilir olur.
