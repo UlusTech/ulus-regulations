@@ -41,7 +41,8 @@ Sırası ile [CommonMark](https://commonmark.org/) ve [GFM](https://en.wikipedia
 
 Projenin sunulduğu her ortamda gösterilmesi zorunlu olan kök (root) Markdown (.md) dosyaları vardır.
 Bu dosyalar alakadar bilginin olası beklentisi nedeniyle yazılır.
-Yani bir dosya bağlam gereği beklenmiyorsa yazılmasına gerek yoktur.
+Yani bir dosya projedeki bağlam gereği beklenmiyorsa yani ihtiyaç yoksa yazılmasına gerek yoktur.
+Örneğin bir Yasa tasarısı projesinden performans bilgisi beklenmez, bu nedenle "PERFORMANCE.md"nin yazılmasına gerek yoktur.
 
 Burada standartize edilmiş bazı dosyalar, başka dosyalar yerine tercih edilmişir.
 Bu nedenle DESIGN.md kullanmak yerine ARCHITECTURE.md kullanırız.
