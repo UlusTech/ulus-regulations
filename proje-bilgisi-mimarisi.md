@@ -182,7 +182,7 @@ Bu dosya, bu proje üstünde çalışan kişilerin idealleri ve motivasyonların
 
 İsminin anlamı; "road" yani "yol", "map" yani "harita" anlamına gelen kelimelerin birleşimi olan "yol haritası"'dır.
 
-Projenin önündeki hedeflenen şeyler bu dosyada yazılır.
+Projenin geleceği için hedeflenen şeyler bu dosyada yazılır.
 Bir özelliğin planlanması bu dosyaya yazılması demektir.
 Bu dosya geçmişi tutmaz, sadece geleceğe bakar.
 
