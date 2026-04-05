@@ -379,7 +379,7 @@ Bu dosyada daha önceden yapılmış ölçümler, hedef değerler ve kıyaslama 
 
 **Şu dosyaları kapsar:**
 
-- `BENCHMARKS.md`
+- `BENCHMARKS.md`: Performans ölçümü için gerekli tüm konseptler bu dosyada yer alır ama istenirse benchmark işlemleri performans belgelerinden ayrılabilir.
 
 ### [SECURITY.md](./SECURITY.md)
 
