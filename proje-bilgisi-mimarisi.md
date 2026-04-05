@@ -351,14 +351,14 @@ Bu dosyada hiç bir başlık mimarisi yoktur. Projenize özel, projeniz için ge
 Projenin tüm mimari konularını burada geçirerek okura mimariyi açıklamanız beklenir, bu nedenle mimariyi açıklamak için tüm gerekli başlıkları kullanın.
 **Şu dosyaları kapsar:**
 
-- `DESIGN.md`
-- `PROCESS.md`
-- `WORKFLOW.md`
-- `LIFECYCLE.md`
-- `SCHEMA.md`
-- `API.md`
-- `CHECKLIST.md`
-- `INTEGRATIONS.md`
+- `DESIGN.md`: Sistem tasarımının açıklanması bu dosyada bulunur.
+- `PROCESS.md`: Projenin süreçleri bu dosyada açıklanır.
+- `WORKFLOW.md`: İş süreçleri bu dosyada açıklanır.
+- `LIFECYCLE.md`: Projenin kullanımı ve geliştirilmesi ile alakalı süreçler bu dosyada açıklanır.
+- `SCHEMA.md`: Projenin tüm veri yapıları bu dosyada açıklanır.
+- `API.md`: Projedeki tüm arayüz sistemleri bu dosyada açıklanır.
+- `CHECKLIST.md`: Projenin kullanımı ile alakalı tüm doğrulamlar bu dosyada yapılır.
+- `INTEGRATIONS.md`: Projedeki tüm entegrasyonlar bu dosyada açıklanır.
 
 **Gerektiğinde ayırılabilecek kapsanan dosyalar:**
 
