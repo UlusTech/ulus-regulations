@@ -362,11 +362,11 @@ Projenin tüm mimari konularını burada geçirerek okura mimariyi açıklamanı
 
 **Gerektiğinde ayırılabilecek kapsanan dosyalar:**
 
-- `CONFIGURATION.md`
-- `DEPENDENCIES.md`
-- `DEPLOYMENT.md`
-- `MIGRATION.md`
-- `VERSIONING.md`
+- `CONFIGURATION.md`: Projedeki tüm "ayar" konseptleri bu dosyada açıklanır ama komplex konfigürasyon konseptleri için yeni bir dosya oluşturabilir.
+- `DEPENDENCIES.md`: Projedeki gereksinimler veya bağımlılıklar bu dosyada açıklanır ama karmaşık bağımlılık yapıları için yeni dosya oluşturabilir.
+- `DEPLOYMENT.md`: Projenin kurulması veya çalıştırılması için gerekli herşey bu dosyada açıklanır ama karmaşık kurulum süreçleri için ayrı bir dosya oluşturabilir.
+- `MIGRATION.md`: Başka projelerin yerine bu projeye geçiş yapılması durumunda izlenmesi gereken adımlar bu dosyada açıklanır ama ihtiyaç durumunda ayrı bir dosyada değinilebilir.
+- `VERSIONING.md` Projede kullanılan versiyonlandırma sistemi bu dosyada açıklanır, istenirse ayrılabilir.
 
 ### [PERFORMANCE.md](./PERFORMANCE.md)
 
