@@ -367,8 +367,15 @@ Projenin tüm mimari konularını burada geçirerek okura mimariyi açıklamanı
 
 ### [PERFORMANCE.md](./PERFORMANCE.md)
 
-Projenin performans kriterleri, ölçüm yöntemleri, hedef değerler ve kıyaslama sonuçlarını belgeler.
-Her projenin bir performans beklentisi vardır, bu dosya o beklentileri ve nasıl ölçüldüğünü ortaya koyar.
+İsmi, "performans" veya "verimlilik" anlamına gelir.
+Projenin kullanımı sırasında beklenen performansları, projenin performansının hangi durumlarda nasıl değişeceği gibi bilgileri içerir.
+
+Her projenin bir performans beklentisi vardır.
+Bu dosya o beklentileri ve nasıl ölçüldüğünü ortaya koyar.
+
+Projedeki performans kriterleri bu dosyada yer alır.
+Performans veya verimlilik gibi konularda ölçüm yapmak için önerilen yollar bu dosyada açıklanır.
+Bu dosyada daha önceden yapılmış ölçümler, hedef değerler ve kıyaslama sonuçları belgelenir
 
 **Şu dosyaları kapsar:**
 
