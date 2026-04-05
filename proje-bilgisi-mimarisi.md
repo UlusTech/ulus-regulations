@@ -384,7 +384,17 @@ Bu dosyada daha önceden yapılmış ölçümler, hedef değerler ve kıyaslama 
 
 ### [SECURITY.md](./SECURITY.md)
 
-Projenin güvenlik politikaları ve güvenlik açığı bildirimi, tehdit modeli ve saldırı yüzeyi analizi, erişim kontrolü ve rol tabanlı yetkilendirme kuralları, kimlik doğrulama ve şifreleme standartları, denetim izi ve kayıt politikası, veri işleme ve saklama prosedürleri.
+İsmi, "güvenlik" anlamına gelir.
+Projenin güvenlik politikaları ve güvenlik açığı bildirimi sistemleri bu dosyada yer alır.
+
+**Bu dosyada şu konulardan bahsedilebilir:**
+
+- Tehdit modeli ve saldırı yüzeyi analizi
+- Erişim kontrolü ve rol tabanlı yetkilendirme kuralları
+- Kimlik doğrulama
+- Sifreleme standartları
+- Denetim izi ve kayıt politikası
+- Veri işleme ve saklama prosedürleri
 
 **Şu dosyaları kapsar:**
 
