@@ -338,7 +338,7 @@ Bu mimari, projenin felsefesi ([manifestosu](#manifestomd)) ile bağlantılı sa
 
 - **Sistem tasarım, kararları ve gerekçeleri**: Projenin işleyişi, ve o işleyişin nedenler. *Örnek: "X işlemini yapmak için Y kullaılmalıdır ama Y'nin Z durumunda Y yerine H kullanılır. Çünkü H, Y'nin aksine X'te F işlemini görmeden yapılabilir."*
 - **Bileşenler arası ilişkiler**: *Örnek: "Y, H'nin daha az karmaşık halidir."*
-- **İş akışları (workflow) ve yaşam döngüleri (lifecycle)**: *Örnek: "X işlemi H ile yapılır. X işleminden sonra Y yok olur."*
+- **İş akışları (workflow) ve yaşam döngüleri (lifecycle)**: *Örnek: "X işlemi H ile yapılır. X işleminden sonra H yok olur."*
 - **Veri şemaları (data structures/schemas/types)**: Genel bir örnek olarak *"H, adres ve saat gibi bilgileri barındırır"* verilebilir. Yazılımsal çalışmalarda veri tipleri, protobuf veya JSON gibi sistemler tanımlanmalıdır.
 - **İstatisliklerin incelenmesi ve açıklamaları**: Projeyi inceleyen bir kişinin elde ettiği verilerden ne çıkarımlar yapması gerektiği anlatılır. Örnek: "X işleminde Y'nin kullanılması daha idealken, Z durumunda bu tam tersine döner.Bunun nedeni K'dir ve R sonucunu değiştirerek Q konusunu etkiler. Q, P durumunda olmalıdır".
 - **Arayüz tanımları (örn: application interface) ve entegrasyon detayları (örn: pluginler veya modlar, webhook bezneri yapılar)**: Projenin 3. partiler tarafından nasıl düzenleme yapılmadan kullanılabileceği. *Örnek: "S projesinde istediğiniz özel bir şeyi yapmak için S'yi düzenlemenize gerek yok, D özelliğini kullanarak S'nin neler yapacağını değiştirebilirsiniz.".* Yazılımsal açıdan "pluginler" veya "API"lerin neler olduğu ve nasıl olduğunu açıklamak olarak görülebilir.
