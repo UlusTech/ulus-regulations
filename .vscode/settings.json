@@ -1,6 +1,6 @@
 {
   "[markdown]": {
-    "editor.defaultFormatter": "vscode.markdown-language-features"
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
   "deno.enable": true
 }
