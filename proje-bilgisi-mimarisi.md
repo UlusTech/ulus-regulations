@@ -359,9 +359,6 @@ Projenin tüm mimari konularını burada geçirerek okura mimariyi açıklamanı
 - `API.md`: Projedeki tüm arayüz sistemleri bu dosyada açıklanır.
 - `CHECKLIST.md`: Projenin kullanımı ile alakalı tüm doğrulamlar bu dosyada yapılır.
 - `INTEGRATIONS.md`: Projedeki tüm entegrasyonlar bu dosyada açıklanır.
-
-**Gerektiğinde ayırılabilecek kapsanan dosyalar:**
-
 - `CONFIGURATION.md`: Projedeki tüm "ayar" konseptleri bu dosyada açıklanır ama komplex konfigürasyon konseptleri için yeni bir dosya oluşturabilir.
 - `DEPENDENCIES.md`: Projedeki gereksinimler veya bağımlılıklar bu dosyada açıklanır ama karmaşık bağımlılık yapıları için yeni dosya oluşturabilir.
 - `DEPLOYMENT.md`: Projenin kurulması veya çalıştırılması için gerekli herşey bu dosyada açıklanır ama karmaşık kurulum süreçleri için ayrı bir dosya oluşturabilir.
