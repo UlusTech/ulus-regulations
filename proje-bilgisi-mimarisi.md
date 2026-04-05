@@ -346,6 +346,9 @@ Bu mimari, projenin felsefesi ([manifestosu](#manifestomd)) ile bağlantılı sa
 - **Geliştirme veya kullanım için gereksinimler ve nedenleri**: Projenin geliştirme, test veya kullanımı sırasında ihtiyaç duyulan harici ögeler hakkında açıklama. *Örnek: "Bu projeyi bilgisayarınızda çalıştırabilmek için Linux tabanlı bir işletim sistemi kullanmanız gerek. İşletim sistemi projeye en az 30 MB RAM ayırabilmelidir. Projeyi standartize edilmiş konteyner biçiminde çalıştırmak isterseniz Podman veya Docker kullanmanızı gerek.".* Ayrıca gerekli kütüphaneleri, çalıştırmak için gereken malzemeleri de açıklar.
 - **Kullanım veya test için çalıştırma/kullanma süreçlerinin açıklanması**: Hangi durumda projenin nasıl kullanılması gerektiği. *Örnek: "Projeyi O yaparak T olacak şekilde kullanabilirsiniz. Kritik önem taşıyan alt yapılarda kullanılacağı zaman J konfigürasyonu devre dışı (kapalı) olmalıdır.".*
 
+Bu maddelerin dışında "başka bir projeden bu projeye geçilmesi" gibi konulardan da bahsedilebilir.
+Bu dosyada hiç bir başlık mimarisi yoktur. Projenize özel, projeniz için gerekli başlıkları kullanın.
+Projenin tüm mimari konularını burada geçirerek okura mimariyi açıklamanız beklenir, bu nedenle mimariyi açıklamak için tüm gerekli başlıkları kullanın.
 **Şu dosyaları kapsar:**
 
 - `DESIGN.md`
