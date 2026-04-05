@@ -349,6 +349,7 @@ Bu mimari, projenin felsefesi ([manifestosu](#manifestomd)) ile bağlantılı sa
 Bu maddelerin dışında "başka bir projeden bu projeye geçilmesi" gibi konulardan da bahsedilebilir.
 Bu dosyada hiç bir başlık mimarisi yoktur. Projenize özel, projeniz için gerekli başlıkları kullanın.
 Projenin tüm mimari konularını burada geçirerek okura mimariyi açıklamanız beklenir, bu nedenle mimariyi açıklamak için tüm gerekli başlıkları kullanın.
+
 **Şu dosyaları kapsar:**
 
 - `DESIGN.md`: Sistem tasarımının açıklanması bu dosyada bulunur.
