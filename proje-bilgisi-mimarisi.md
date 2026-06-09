@@ -366,6 +366,8 @@ Projenin tüm mimari konularını burada geçirerek okura mimariyi açıklamanı
 - `MIGRATION.md`: Başka projelerin yerine bu projeye geçiş yapılması durumunda izlenmesi gereken adımlar bu dosyada açıklanır ama ihtiyaç durumunda ayrı bir dosyada değinilebilir.
 - `VERSIONING.md` Projede kullanılan versiyonlandırma sistemi bu dosyada açıklanır, istenirse ayrılabilir.
 
+<!-- Below this, we did not worked on this hard. So dont minde these. -->
+
 ### [PERFORMANCE.md](./PERFORMANCE.md)
 
 İsmi, "performans" veya "verimlilik" anlamına gelir.
