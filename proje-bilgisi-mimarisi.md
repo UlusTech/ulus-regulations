@@ -96,8 +96,10 @@ Proje bilgisi mimarisi için bu yönetmeliğin kullanıldığı belirtilmezse ve
 Bu yönetmeliğin kullanıldığını belirtmek için örnekteki gibi bir yazı eklenmelidir:
 
 ```markdown
-Bu proje [Ulus](https://ulusgroup.org)'un [Proje Bilgi Mimarisi](https://github.com/UlusTech/ulus-regulations/blob/main/proje-bilgisi-mimarisi.md) yönetmeliğine göre yazılmıştır.
+Bu proje [Ulus](https://ulus.me)'un [Proje Bilgi Mimarisi](https://github.com/UlusTech/ulus-regulations/blob/main/proje-bilgisi-mimarisi.md) yönetmeliğine göre yazılmıştır.
 ```
+
+*(Proje dökümantasyon dilinde yazılır.)*
 
 ### [SUMMARY.md](./SUMMARY.md)
 
