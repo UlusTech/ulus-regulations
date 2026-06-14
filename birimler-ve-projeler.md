@@ -14,3 +14,9 @@ Birimler ve projeler yönetmeliklere sahiptir. Bu yönetmelikler alakadar klasö
   - [ulus-haber-api](https://github.com/UlusTech/ulus-haber-api)
   - [tstd](https://github.com/UlusTech/tstd)
   - [cross-ts](https://github.com/UlusTech/cross-ts)
+  - [phobos](https://github.com/UlusTech/phobos)
+- Ulus Medya
+  - Ulus Haber
+    - [Ulus TV Discord Sunucusu]()
+- Ulus Entertainment
+  - Ulus Oyun
